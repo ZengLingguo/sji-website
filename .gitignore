@@ -1,0 +1,17 @@
+# Local preview screenshots
+Site/preview-*.png
+
+# Internal materials, backups, and working documents
+Docs/
+Backups/
+TempLensPptx/
+
+# Local-only preview server artifacts
+node_modules/
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

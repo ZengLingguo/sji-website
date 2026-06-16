@@ -1552,6 +1552,69 @@ Object.assign(staticPhraseTranslations.ja, {
   "1.1 inch 25MP fixed focal lenses with 12mm, 16mm, 25mm, 35mm, 50mm, and 75mm options.": "1.1 インチ 25MP 固定焦点レンズで、12mm、16mm、25mm、35mm、50mm、75mm のオプションがあります。"
 });
 
+const heroVisualTranslations = {
+  en: {
+    "heroVisual.eyebrow": "Featured lineup",
+    "heroVisual.title": "Fixed + handheld code reading",
+    "heroVisual.text": "RS60, RS200, and H620 cover standard production-line reading, higher-performance traceability, and flexible manual scanning.",
+    "heroVisual.rs60": "Standard fixed reader",
+    "heroVisual.rs200": "High-performance reader",
+    "heroVisual.h620": "Handheld reader"
+  },
+  "zh-CN": {
+    "heroVisual.eyebrow": "主推产品线",
+    "heroVisual.title": "固定式 + 手持式读码",
+    "heroVisual.text": "RS60、RS200 和 H620 覆盖标准产线读码、高性能追溯和灵活人工扫码。",
+    "heroVisual.rs60": "标准固定式读码器",
+    "heroVisual.rs200": "高性能读码器",
+    "heroVisual.h620": "手持式读码器"
+  },
+  "zh-Hant": {
+    "heroVisual.eyebrow": "主推產品線",
+    "heroVisual.title": "固定式 + 手持式讀碼",
+    "heroVisual.text": "RS60、RS200 和 H620 覆蓋標準產線讀碼、高性能追溯和靈活人工掃碼。",
+    "heroVisual.rs60": "標準固定式讀碼器",
+    "heroVisual.rs200": "高性能讀碼器",
+    "heroVisual.h620": "手持式讀碼器"
+  },
+  ja: {
+    "heroVisual.eyebrow": "主力ラインアップ",
+    "heroVisual.title": "固定式 + ハンディコード読取",
+    "heroVisual.text": "RS60、RS200、H620 は、標準的な生産ライン読取、高性能トレーサビリティ、柔軟な手作業スキャンをカバーします。",
+    "heroVisual.rs60": "標準固定式リーダー",
+    "heroVisual.rs200": "高性能リーダー",
+    "heroVisual.h620": "ハンディリーダー"
+  },
+  ko: {
+    "heroVisual.eyebrow": "주력 라인업",
+    "heroVisual.title": "고정식 + 핸드헬드 코드 판독",
+    "heroVisual.text": "RS60, RS200, H620은 표준 생산라인 판독, 고성능 추적성, 유연한 수동 스캔을 지원합니다.",
+    "heroVisual.rs60": "표준 고정식 리더",
+    "heroVisual.rs200": "고성능 리더",
+    "heroVisual.h620": "핸드헬드 리더"
+  },
+  th: {
+    "heroVisual.eyebrow": "กลุ่มสินค้าหลัก",
+    "heroVisual.title": "การอ่านโค้ดแบบติดตั้งคงที่ + มือถือ",
+    "heroVisual.text": "RS60, RS200 และ H620 รองรับการอ่านบนสายการผลิต การตรวจสอบย้อนกลับประสิทธิภาพสูง และการสแกนแบบมือถือที่ยืดหยุ่น",
+    "heroVisual.rs60": "เครื่องอ่านแบบติดตั้งคงที่",
+    "heroVisual.rs200": "เครื่องอ่านประสิทธิภาพสูง",
+    "heroVisual.h620": "เครื่องอ่านแบบมือถือ"
+  },
+  vi: {
+    "heroVisual.eyebrow": "Dòng sản phẩm chính",
+    "heroVisual.title": "Đọc mã cố định + cầm tay",
+    "heroVisual.text": "RS60, RS200 và H620 đáp ứng đọc mã trên dây chuyền, truy xuất hiệu năng cao và quét cầm tay linh hoạt.",
+    "heroVisual.rs60": "Đầu đọc cố định tiêu chuẩn",
+    "heroVisual.rs200": "Đầu đọc hiệu năng cao",
+    "heroVisual.h620": "Đầu đọc cầm tay"
+  }
+};
+
+Object.entries(heroVisualTranslations).forEach(([lang, dictionary]) => {
+  translations[lang] = { ...translations[lang], ...dictionary };
+});
+
 const pageTitleTranslations = {
   "/": {
     "zh-CN": "SJI | 工业读码器与机器视觉产品",

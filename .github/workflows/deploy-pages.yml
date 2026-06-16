@@ -39,6 +39,7 @@ jobs:
           cp Site/.nojekyll dist/
           cp -R Site/assets dist/assets
           cp -R Site/products dist/products
+          if [ -f Site/CNAME ]; then cp Site/CNAME dist/CNAME; fi
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3

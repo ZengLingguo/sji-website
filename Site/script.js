@@ -122,14 +122,14 @@ const translations = {
     "btn.viewLenses": "查看镜头详情",
     "btn.viewAllReaders": "查看全部读码器",
     "hero.eyebrow": "面向全球供应的工业视觉产品",
-    "hero.title": "工业读码器与机器视觉镜头",
+    "hero.title": "工业读码器与视觉镜头",
     "hero.text":
       "SJI 面向制造商、设备厂、系统集成商和经销商供应工业读码器、机器视觉镜头及相关视觉组件。",
     "hero.trust1": "RS60 / RS200 / H620 主推型号",
     "hero.trust2": "10+ 年视觉行业经验",
     "hero.trust3": "海外询盘支持",
     "categories.eyebrow": "产品分类",
-    "categories.title": "面向工业客户的清晰产品结构",
+    "categories.title": "清晰的工业产品结构",
     "categories.text": "SJI 按客户使用场景组织产品：固定式读码器用于设备安装，紧凑型用于受限空间，手持式用于人工扫码，机器视觉镜头用于成像选型。",
     "products.eyebrow": "主推读码器",
     "products.title": "面向工业读码的三款主推型号",
@@ -217,9 +217,9 @@ const translations = {
     "btn.lensSelection": "請求鏡頭選型",
     "btn.viewLenses": "查看鏡頭詳情",
     "btn.viewAllReaders": "查看全部讀碼器",
-    "hero.title": "工業讀碼器與機器視覺鏡頭",
+    "hero.title": "工業讀碼器與視覺鏡頭",
     "categories.eyebrow": "產品分類",
-    "categories.title": "面向工業客戶的清晰產品結構",
+    "categories.title": "清晰的工業產品結構",
     "products.title": "面向工業讀碼的三款主推型號",
     "readerLineup.eyebrow": "更多讀碼器型號",
     "readerLineup.title": "可根據不同安裝方式和掃碼需求提供更多型號選擇。",
@@ -272,9 +272,688 @@ const translations = {
   }
 };
 
+const extendedTranslations = {
+  "zh-Hant": {
+    "btn.quote": "取得報價",
+    "btn.viewReaders": "查看讀碼器",
+    "btn.contactSales": "聯絡銷售",
+    "btn.lensSelection": "請求鏡頭選型",
+    "btn.viewLenses": "查看鏡頭詳情",
+    "btn.viewAllReaders": "查看全部讀碼器",
+    "hero.eyebrow": "面向全球供應的工業視覺產品",
+    "hero.text": "SJI 面向製造商、設備廠、系統整合商和經銷商供應工業讀碼器、機器視覺鏡頭及相關視覺組件。",
+    "hero.trust1": "RS60 / RS200 / H620 主推型號",
+    "hero.trust2": "10+ 年視覺行業經驗",
+    "hero.trust3": "海外詢盤支援",
+    "categories.text": "SJI 按客戶使用場景組織產品：固定式讀碼器用於設備安裝，緊湊型用於受限空間，手持式用於人工掃碼，機器視覺鏡頭用於成像選型。",
+    "products.eyebrow": "主推讀碼器",
+    "products.text": "一期產品線聚焦 RS60、RS200 和 H620，覆蓋固定安裝、高性能讀碼和手持靈活掃碼。",
+    "rs60.type": "標準固定式讀碼器",
+    "rs60.desc": "適用於產線、設備安裝和常規製造讀碼場景的固定式工業讀碼器。",
+    "rs200.type": "高性能固定式讀碼器",
+    "rs200.desc": "適用於更高要求的工業讀碼、生產追溯和複雜應用場景。",
+    "h620.type": "手持式工業讀碼器",
+    "h620.desc": "適用於靈活掃碼、倉儲作業、來料檢查和生產支援。",
+    "readerLineup.text": "除 RS60、RS200、H620 外，SJI 還可提供 RS80-M、RS100-A / RS100-M、R170 / R172、R270-A / R275-A、C300、H920、PDA 和軟解引擎等選項。",
+    "tag.production": "產線應用",
+    "tag.performance": "高性能",
+    "tag.handheld": "手持式",
+    "tag.warehouse": "倉儲",
+    "tag.inspection": "檢測",
+    "videos.eyebrow": "產品影片",
+    "videos.text": "產品宣傳影片和應用片段可協助海外客戶在詢盤前了解讀碼性能、安裝場景和實際工業應用。",
+    "specs.eyebrow": "型號概覽",
+    "specs.title": "主推產品定位",
+    "table.model": "型號",
+    "table.type": "類型",
+    "table.use": "主要用途",
+    "table.codes": "碼制",
+    "table.rs60Type": "固定式讀碼器",
+    "table.rs60Use": "產線與設備安裝",
+    "table.rs200Type": "高性能固定式讀碼器",
+    "table.rs200Use": "高要求工業應用",
+    "table.h620Type": "手持式讀碼器",
+    "table.h620Use": "靈活掃碼與檢查",
+    "lenses.eyebrow": "機器視覺鏡頭",
+    "lenses.text": "SJI 供應 C 接口定焦機器視覺鏡頭，用於檢測、定位、測量和讀碼成像。目前資料包含 12MP 與 25MP 系列。",
+    "apps.eyebrow": "應用",
+    "apps.title": "面向工業讀碼應用",
+    "apps.text": "從電子、包裝到物流和汽車零部件，SJI 產品支援製造環境中的常見識別需求。",
+    "app.electronics": "電子追溯",
+    "app.electronicsText": "用於 PCB、元器件、標籤和電子產品追溯的讀碼。",
+    "app.packaging": "包裝讀碼",
+    "app.packagingText": "讀取紙箱、標籤、瓶身、袋裝產品和包裝線上的條碼。",
+    "app.logistics": "物流掃碼",
+    "app.logisticsText": "用於分揀、追蹤、倉儲自動化和輸送線掃碼。",
+    "app.auto": "汽車零部件識別",
+    "app.autoText": "用於金屬、塑膠和裝配零部件的追溯識別。",
+    "about.eyebrow": "關於 SJI",
+    "about.title": "珠海三界智能科技有限公司",
+    "about.text": "三界智能(SJI) 是一家新成立的新興研發公司，專注於機器視覺領域，具備國際領先水平的自研機器視覺算法。公司以研發為導向，視覺算法、軟件開發、硬件設計全棧獨立自研，已向市場推出多系列工業級智能相機及讀碼器產品，在 3C 電子、汽車、新能源及半導體等垂直領域積累了豐富的行業經驗。",
+    "about.rd": "視覺算法、軟件開發、硬件設計",
+    "about.industries": "3C 電子、汽車、新能源及半導體經驗",
+    "about.brand": "統一海外品牌形象",
+    "contact.eyebrow": "聯絡 SJI",
+    "contact.text": "請告訴我們目標型號、碼制、讀取距離、應用場景或採購數量，SJI 將提供產品資訊和報價支援。",
+    "contact.companyLabel": "公司",
+    "contact.company": "珠海三界智能科技有限公司",
+    "contact.emailLabel": "電郵",
+    "contact.whatsappLabel": "WhatsApp",
+    "contact.addressLabel": "地址",
+    "contact.address": "中國，廣東省珠海市香洲區華威路77號7樓707室",
+    "footer.text": "珠海三界智能科技有限公司面向全球工業客戶供應工業讀碼器、智能相機、機器視覺鏡頭和相關視覺組件。"
+  },
+  ja: {
+    "btn.quote": "見積依頼",
+    "btn.viewReaders": "バーコードリーダーを見る",
+    "btn.contactSales": "営業へ問い合わせ",
+    "btn.lensSelection": "レンズ選定を依頼",
+    "btn.viewLenses": "レンズ詳細を見る",
+    "btn.viewAllReaders": "すべてのリーダーを見る",
+    "hero.eyebrow": "グローバル供給向け産業用ビジョン製品",
+    "hero.title": "産業用バーコードリーダーとマシンビジョンレンズ",
+    "hero.text": "SJI は、アジアおよびグローバル市場のメーカー、装置メーカー、システムインテグレーター、販売代理店向けに、産業用コードリーダー、マシンビジョンレンズ、関連コンポーネントを供給しています。",
+    "hero.trust1": "RS60 / RS200 / H620 主力モデル",
+    "hero.trust2": "10年以上のビジョン業界経験",
+    "hero.trust3": "海外問い合わせ対応",
+    "categories.eyebrow": "製品カテゴリ",
+    "categories.title": "産業バイヤー向けの明確な製品構成",
+    "categories.text": "SJI は、機械取付用の固定式リーダー、省スペース向けのコンパクトリーダー、手作業向けのハンディリーダー、画像選定向けのマシンビジョンレンズに分けて製品を提示します。",
+    "products.eyebrow": "主力バーコードリーダー",
+    "products.title": "産業コード読取向けの3つの主力モデル",
+    "products.text": "第一段階の製品ラインは RS60、RS200、H620 を中心に、固定設置、高性能読取、柔軟なハンディスキャンをカバーします。",
+    "rs60.type": "標準固定式バーコードリーダー",
+    "rs60.desc": "生産ライン、装置組込み、一般的な製造現場のコード読取に適した固定式産業リーダーです。",
+    "rs200.type": "高性能固定式バーコードリーダー",
+    "rs200.desc": "高要求の産業コード読取、トレーサビリティ、難しいアプリケーション向けの高性能リーダーです。",
+    "h620.type": "ハンディ産業用バーコードリーダー",
+    "h620.desc": "柔軟なスキャン、倉庫作業、受入検査、生産サポートに適したハンディリーダーです。",
+    "readerLineup.eyebrow": "その他のリーダーオプション",
+    "readerLineup.title": "設置方法やスキャン用途に応じた拡張モデルを提供できます。",
+    "readerLineup.text": "RS60、RS200、H620 に加えて、SJI は RS80-M、RS100-A / RS100-M、R170 / R172、R270-A / R275-A、C300、H920、PDA、ソフトウェアデコードエンジンなどを提供できます。",
+    "tag.production": "生産ライン",
+    "tag.performance": "高性能",
+    "tag.handheld": "ハンディ",
+    "tag.warehouse": "倉庫",
+    "tag.inspection": "検査",
+    "videos.eyebrow": "製品動画",
+    "videos.title": "製品動画とアプリケーション映像でリーダーを確認",
+    "videos.text": "製品動画とアプリケーション映像により、海外のお客様は問い合わせ前に読取性能、設置シーン、実際の産業用途を理解できます。",
+    "specs.eyebrow": "モデル概要",
+    "specs.title": "主力製品の位置づけ",
+    "table.model": "モデル",
+    "table.type": "タイプ",
+    "table.use": "主用途",
+    "table.codes": "コード種類",
+    "table.rs60Type": "固定式リーダー",
+    "table.rs60Use": "生産ラインと装置組込み",
+    "table.rs200Type": "高性能固定式リーダー",
+    "table.rs200Use": "高要求の産業用途",
+    "table.h620Type": "ハンディリーダー",
+    "table.h620Use": "柔軟なスキャンと検査",
+    "lenses.eyebrow": "マシンビジョンレンズ",
+    "lenses.title": "産業画像処理向け自社ブランドレンズ",
+    "lenses.text": "SJI は、検査、位置決め、測定、コード読取画像処理向けの C マウント固定焦点レンズを供給しています。現在の資料には 12MP と 25MP シリーズが含まれます。",
+    "apps.eyebrow": "用途",
+    "apps.title": "産業コード読取用途向け",
+    "apps.text": "電子、包装、物流、自動車部品など、SJI 製品は製造現場の一般的な識別ニーズをサポートします。",
+    "app.electronics": "電子部品トレーサビリティ",
+    "app.electronicsText": "PCB、部品、ラベル、電子製品追跡向けのコード読取。",
+    "app.packaging": "包装コード読取",
+    "app.packagingText": "箱、ラベル、ボトル、袋、包装ライン上のコードを読み取ります。",
+    "app.logistics": "物流バーコードスキャン",
+    "app.logisticsText": "仕分け、追跡、倉庫自動化、コンベヤ向けバーコードスキャン。",
+    "app.auto": "自動車部品識別",
+    "app.autoText": "金属、樹脂、組立部品のトレーサビリティ識別。",
+    "about.eyebrow": "SJI について",
+    "about.title": "珠海三界智能科技有限公司",
+    "about.text": "Sanjie Intelligence (SJI) は、マシンビジョン分野に注力する新興研究開発企業で、国際水準の自社開発マシンビジョンアルゴリズムを備えています。視覚アルゴリズム、ソフトウェア開発、ハードウェア設計をフルスタックで自社開発し、複数シリーズの産業用スマートカメラとコードリーダーを市場に投入しています。",
+    "about.rd": "視覚アルゴリズム、ソフトウェア、ハードウェア設計",
+    "about.industries": "電子、自動車、新エネルギー、半導体の経験",
+    "about.brand": "統一された海外ブランド展開",
+    "contact.eyebrow": "SJI に問い合わせ",
+    "contact.title": "製品のお問い合わせを送信",
+    "contact.text": "対象モデル、コード種類、読取距離、用途、必要数量をお知らせください。SJI が製品情報と見積サポートを提供します。",
+    "contact.companyLabel": "会社",
+    "contact.company": "Zhuhai Sanjie Intelligent Technology Co., Ltd.",
+    "contact.emailLabel": "メール",
+    "contact.whatsappLabel": "WhatsApp",
+    "contact.addressLabel": "住所",
+    "contact.address": "China, Room 707, 7th Floor, No. 77 Huawei Road, Xiangzhou District, Zhuhai City, Guangdong Province, China",
+    "form.name": "お名前",
+    "form.email": "メール",
+    "form.country": "国 / 地域",
+    "form.phoneWhatsapp": "電話 / WhatsApp",
+    "form.product": "関心のある製品",
+    "form.message": "メッセージ",
+    "form.submit": "問い合わせを送信",
+    "footer.text": "Zhuhai Sanjie Intelligent Technology Co., Ltd. は、世界の産業バイヤー向けに産業用バーコードリーダー、スマートカメラ、マシンビジョンレンズ、関連コンポーネントを供給しています。"
+  }
+};
+
+extendedTranslations.ko = {
+  "btn.quote": "견적 요청",
+  "btn.viewReaders": "바코드 리더 보기",
+  "btn.contactSales": "영업 문의",
+  "btn.lensSelection": "렌즈 선정 요청",
+  "btn.viewLenses": "렌즈 상세 보기",
+  "btn.viewAllReaders": "전체 바코드 리더 보기",
+  "hero.eyebrow": "글로벌 공급을 위한 산업용 비전 제품",
+  "hero.title": "산업용 바코드 리더와 머신비전 렌즈",
+  "hero.text": "SJI는 아시아 및 글로벌 시장의 제조사, 장비 업체, 시스템 통합사, 유통사를 위해 산업용 코드 리더, 머신비전 렌즈 및 관련 비전 부품을 공급합니다.",
+  "hero.trust1": "RS60 / RS200 / H620 주력 모델",
+  "hero.trust2": "10년 이상 비전 산업 경험",
+  "hero.trust3": "해외 문의 지원",
+  "categories.eyebrow": "제품 카테고리",
+  "categories.title": "산업 구매자를 위한 명확한 제품 구조",
+  "categories.text": "SJI는 장비 설치용 고정식 리더, 협소 공간용 컴팩트 리더, 수동 스캔용 핸드헬드 리더, 이미징 선정용 머신비전 렌즈로 제품을 구성합니다.",
+  "products.eyebrow": "주력 바코드 리더",
+  "products.title": "산업용 코드 리딩을 위한 3가지 주력 모델",
+  "products.text": "1단계 제품 라인업은 RS60, RS200, H620을 중심으로 고정 설치, 고성능 리딩, 유연한 핸드헬드 스캔을 지원합니다.",
+  "rs60.type": "표준 고정식 바코드 리더",
+  "rs60.desc": "생산 라인, 장비 설치, 일반 제조 현장의 코드 리딩에 적합한 고정식 산업용 리더입니다.",
+  "rs200.type": "고성능 고정식 바코드 리더",
+  "rs200.desc": "까다로운 산업용 코드 리딩, 추적성, 복잡한 애플리케이션을 위한 고성능 리더입니다.",
+  "h620.type": "핸드헬드 산업용 바코드 리더",
+  "h620.desc": "유연한 스캔, 창고 작업, 입고 검사, 생산 지원에 적합한 핸드헬드 리더입니다.",
+  "readerLineup.eyebrow": "추가 바코드 리더 옵션",
+  "readerLineup.title": "설치 및 스캔 요구에 따라 다양한 확장 모델을 제공할 수 있습니다.",
+  "readerLineup.text": "RS60, RS200, H620 외에도 SJI는 RS80-M, RS100-A / RS100-M, R170 / R172, R270-A / R275-A, C300, H920, PDA 및 소프트웨어 디코딩 옵션을 제공할 수 있습니다.",
+  "tag.production": "생산 라인",
+  "tag.performance": "고성능",
+  "tag.handheld": "핸드헬드",
+  "tag.warehouse": "창고",
+  "tag.inspection": "검사",
+  "videos.eyebrow": "제품 영상",
+  "videos.title": "제품 및 적용 영상으로 바코드 리더 확인",
+  "videos.text": "제품 영상과 적용 클립은 해외 고객이 문의 전에 리딩 성능, 설치 시나리오, 실제 산업 적용을 이해하는 데 도움을 줍니다.",
+  "lenses.eyebrow": "머신비전 렌즈",
+  "lenses.title": "산업용 이미징을 위한 자체 브랜드 렌즈",
+  "lenses.text": "SJI는 검사, 위치 결정, 측정, 코드 리딩 이미징을 위한 C-마운트 고정 초점 렌즈를 공급합니다.",
+  "apps.eyebrow": "응용 분야",
+  "apps.title": "산업용 코드 리딩 애플리케이션용",
+  "apps.text": "전자, 포장, 물류, 자동차 부품 등 제조 환경의 일반적인 식별 요구를 지원합니다.",
+  "about.eyebrow": "SJI 소개",
+  "about.title": "Zhuhai Sanjie Intelligent Technology Co., Ltd.",
+  "about.text": "Sanjie Intelligence (SJI)는 머신비전 분야에 집중하는 신흥 R&D 기업으로, 자체 개발한 머신비전 알고리즘과 소프트웨어, 하드웨어 설계 역량을 보유하고 있습니다.",
+  "contact.title": "제품 문의 보내기",
+  "contact.text": "대상 모델, 코드 유형, 리딩 거리, 적용 분야 또는 수량을 알려주시면 제품 정보와 견적을 지원합니다.",
+  "form.name": "이름",
+  "form.email": "이메일",
+  "form.country": "국가 / 지역",
+  "form.phoneWhatsapp": "전화 / WhatsApp",
+  "form.product": "관심 제품",
+  "form.message": "메시지",
+  "form.submit": "문의 제출"
+};
+extendedTranslations.th = {
+  "btn.quote": "ขอใบเสนอราคา",
+  "btn.viewReaders": "ดูเครื่องอ่านบาร์โค้ด",
+  "btn.contactSales": "ติดต่อฝ่ายขาย",
+  "btn.lensSelection": "ขอเลือกเลนส์",
+  "btn.viewLenses": "ดูรายละเอียดเลนส์",
+  "btn.viewAllReaders": "ดูเครื่องอ่านทั้งหมด",
+  "hero.eyebrow": "ผลิตภัณฑ์วิชันอุตสาหกรรมสำหรับตลาดโลก",
+  "hero.title": "เครื่องอ่านบาร์โค้ดอุตสาหกรรมและเลนส์แมชชีนวิชัน",
+  "hero.text": "SJI จัดหาเครื่องอ่านโค้ดอุตสาหกรรม เลนส์แมชชีนวิชัน และชิ้นส่วนที่เกี่ยวข้องสำหรับผู้ผลิต ผู้สร้างเครื่องจักร ผู้วางระบบ และตัวแทนจำหน่ายในตลาดเอเชียและทั่วโลก",
+  "hero.trust1": "รุ่นหลัก RS60 / RS200 / H620",
+  "hero.trust2": "ประสบการณ์ด้านวิชันมากกว่า 10 ปี",
+  "hero.trust3": "รองรับคำถามจากต่างประเทศ",
+  "categories.eyebrow": "หมวดหมู่สินค้า",
+  "categories.title": "โครงสร้างผลิตภัณฑ์ที่ชัดเจนสำหรับลูกค้าอุตสาหกรรม",
+  "categories.text": "SJI จัดกลุ่มผลิตภัณฑ์ตามการใช้งานของลูกค้า ได้แก่ เครื่องอ่านแบบติดตั้งประจำ แบบกะทัดรัด แบบมือถือ และเลนส์แมชชีนวิชัน",
+  "products.eyebrow": "เครื่องอ่านบาร์โค้ดรุ่นเด่น",
+  "products.title": "สามรุ่นหลักสำหรับการอ่านโค้ดอุตสาหกรรม",
+  "products.text": "ผลิตภัณฑ์ระยะแรกเน้น RS60, RS200 และ H620 ครอบคลุมการติดตั้งประจำ การอ่านประสิทธิภาพสูง และการสแกนแบบมือถือ",
+  "rs60.type": "เครื่องอ่านบาร์โค้ดแบบติดตั้งประจำมาตรฐาน",
+  "rs60.desc": "เครื่องอ่านอุตสาหกรรมแบบติดตั้งประจำสำหรับสายการผลิต การติดตั้งกับเครื่องจักร และการอ่านโค้ดทั่วไป",
+  "rs200.type": "เครื่องอ่านบาร์โค้ดแบบติดตั้งประจำประสิทธิภาพสูง",
+  "rs200.desc": "เครื่องอ่านประสิทธิภาพสูงสำหรับงานอ่านโค้ดอุตสาหกรรม การตรวจสอบย้อนกลับ และสภาพแวดล้อมที่ท้าทาย",
+  "h620.type": "เครื่องอ่านบาร์โค้ดอุตสาหกรรมแบบมือถือ",
+  "h620.desc": "เครื่องอ่านแบบมือถือสำหรับการสแกนที่ยืดหยุ่น งานคลังสินค้า การตรวจรับ และการสนับสนุนการผลิต",
+  "readerLineup.eyebrow": "ตัวเลือกเครื่องอ่านเพิ่มเติม",
+  "readerLineup.title": "มีรุ่นเพิ่มเติมสำหรับวิธีติดตั้งและความต้องการสแกนที่แตกต่างกัน",
+  "readerLineup.text": "นอกจาก RS60, RS200 และ H620 แล้ว SJI ยังมีตัวเลือก RS80-M, RS100-A / RS100-M, R170 / R172, R270-A / R275-A, C300, H920, PDA และซอฟต์แวร์ถอดรหัส",
+  "videos.eyebrow": "วิดีโอผลิตภัณฑ์",
+  "videos.title": "ดูเครื่องอ่านจากวิดีโอผลิตภัณฑ์และการใช้งาน",
+  "lenses.eyebrow": "เลนส์แมชชีนวิชัน",
+  "lenses.title": "เลนส์แบรนด์ของ SJI สำหรับงานภาพอุตสาหกรรม",
+  "apps.eyebrow": "การใช้งาน",
+  "apps.title": "สร้างขึ้นสำหรับงานอ่านโค้ดอุตสาหกรรม",
+  "contact.title": "ส่งคำถามเกี่ยวกับสินค้า",
+  "form.name": "ชื่อ",
+  "form.email": "อีเมล",
+  "form.country": "ประเทศ / ภูมิภาค",
+  "form.phoneWhatsapp": "โทรศัพท์ / WhatsApp",
+  "form.product": "สินค้าที่สนใจ",
+  "form.message": "ข้อความ",
+  "form.submit": "ส่งคำถาม"
+};
+extendedTranslations.vi = {
+  "btn.quote": "Nhận báo giá",
+  "btn.viewReaders": "Xem đầu đọc mã vạch",
+  "btn.contactSales": "Liên hệ kinh doanh",
+  "btn.lensSelection": "Yêu cầu chọn ống kính",
+  "btn.viewLenses": "Xem chi tiết ống kính",
+  "btn.viewAllReaders": "Xem tất cả đầu đọc",
+  "hero.eyebrow": "Sản phẩm thị giác công nghiệp cho cung ứng toàn cầu",
+  "hero.title": "Đầu đọc mã vạch công nghiệp & ống kính thị giác máy",
+  "hero.text": "SJI cung cấp đầu đọc mã công nghiệp, ống kính thị giác máy và linh kiện liên quan cho nhà sản xuất, nhà chế tạo máy, đơn vị tích hợp hệ thống và nhà phân phối tại châu Á và thị trường toàn cầu.",
+  "hero.trust1": "Các mẫu chính RS60 / RS200 / H620",
+  "hero.trust2": "Hơn 10 năm kinh nghiệm ngành thị giác",
+  "hero.trust3": "Hỗ trợ yêu cầu quốc tế",
+  "categories.eyebrow": "Danh mục sản phẩm",
+  "categories.title": "Cấu trúc sản phẩm rõ ràng cho khách hàng công nghiệp",
+  "categories.text": "SJI tổ chức sản phẩm theo quy trình khách hàng: đầu đọc cố định, đầu đọc nhỏ gọn, đầu đọc cầm tay và ống kính thị giác máy.",
+  "products.eyebrow": "Đầu đọc mã vạch nổi bật",
+  "products.title": "Ba mẫu chủ lực cho đọc mã công nghiệp",
+  "products.text": "Dòng sản phẩm giai đoạn đầu tập trung vào RS60, RS200 và H620, bao phủ lắp đặt cố định, đọc hiệu năng cao và quét cầm tay linh hoạt.",
+  "rs60.type": "Đầu đọc mã vạch cố định tiêu chuẩn",
+  "rs60.desc": "Đầu đọc công nghiệp cố định cho dây chuyền sản xuất, tích hợp thiết bị và đọc mã sản xuất thông thường.",
+  "rs200.type": "Đầu đọc mã vạch cố định hiệu năng cao",
+  "rs200.desc": "Đầu đọc hiệu năng cao cho đọc mã công nghiệp, truy xuất nguồn gốc và các ứng dụng khó.",
+  "h620.type": "Đầu đọc mã vạch công nghiệp cầm tay",
+  "h620.desc": "Đầu đọc cầm tay cho quét linh hoạt, kho hàng, kiểm tra đầu vào và hỗ trợ sản xuất.",
+  "readerLineup.eyebrow": "Tùy chọn đầu đọc mã vạch khác",
+  "readerLineup.title": "Có các dòng mở rộng cho nhiều nhu cầu lắp đặt và quét khác nhau.",
+  "readerLineup.text": "Ngoài RS60, RS200 và H620, SJI có thể cung cấp RS80-M, RS100-A / RS100-M, R170 / R172, R270-A / R275-A, C300, H920, PDA và tùy chọn giải mã phần mềm.",
+  "videos.eyebrow": "Video sản phẩm",
+  "videos.title": "Xem đầu đọc mã vạch qua video sản phẩm và ứng dụng",
+  "lenses.eyebrow": "Ống kính thị giác máy",
+  "lenses.title": "Ống kính thương hiệu SJI cho hình ảnh công nghiệp",
+  "apps.eyebrow": "Ứng dụng",
+  "apps.title": "Dành cho ứng dụng đọc mã công nghiệp",
+  "contact.title": "Gửi yêu cầu sản phẩm",
+  "form.name": "Tên",
+  "form.email": "Email",
+  "form.country": "Quốc gia / Khu vực",
+  "form.phoneWhatsapp": "Điện thoại / WhatsApp",
+  "form.product": "Sản phẩm quan tâm",
+  "form.message": "Nội dung",
+  "form.submit": "Gửi yêu cầu"
+};
+
+Object.entries(extendedTranslations).forEach(([lang, dictionary]) => {
+  translations[lang] = { ...translations[lang], ...dictionary };
+});
+
+const staticPhraseTranslations = {
+  "zh-CN": {
+    "SJI presents products by buyer workflow: fixed readers for machines, compact readers for limited space, handheld readers for manual scanning, and machine vision lenses for imaging selection.": "SJI 按客户使用流程展示产品：固定式读码器用于设备安装，紧凑型用于受限空间，手持式用于人工扫码，机器视觉镜头用于成像选型。",
+    "RS60, RS80, RS100, and RS200 family models for production line installation, machine integration, and traceability.": "RS60、RS80、RS100 及 RS200 家族型号适用于产线安装、设备集成和生产追溯。",
+    "R170 / R172 and R270-A / R275-A options for embedded positions, small machines, and constrained installation spaces.": "R170 / R172 和 R270-A / R275-A 适用于嵌入式位置、小型设备和受限安装空间。",
+    "H620, H920, and D100-style workflows for warehouse scanning, inspection, and mobile data collection.": "H620、H920 和 D100 类流程适用于仓储扫码、检测和移动数据采集。",
+    "12MP and 25MP fixed focal length C-mount lenses for inspection, positioning, measurement, and code reading imaging.": "12MP 与 25MP C 接口定焦镜头，适用于检测、定位、测量和读码成像。",
+    "RS60, RS200 Family, and H620 remain the first-stage featured models for overseas promotion. Selector data also covers RS80-M, RS100-A / RS100-M, RS210, RS220, RS250, and RS290, while catalog materials support additional compact, handheld, PDA, and software decoding inquiries.": "RS60、RS200 家族和 H620 仍作为海外推广一期主推型号。选型数据也覆盖 RS80-M、RS100-A / RS100-M、RS210、RS220、RS250 和 RS290，资料中还支持紧凑型、手持式、PDA 和软件解码等补充询盘。",
+    "Customers usually start from installation method and workflow. This page groups the reader lineup by fixed, compact, handheld, PDA, and software decoding needs before moving into the model matrix.": "客户通常从安装方式和使用流程开始选型。本页先按固定式、紧凑型、手持式、PDA 和软件解码需求组织读码器产品线，再进入型号矩阵。",
+    "RS60, RS80-M, RS100-A / RS100-M, RS210, RS220, RS250, and RS290 for production lines, traceability stations, and equipment integration.": "RS60、RS80-M、RS100-A / RS100-M、RS210、RS220、RS250 和 RS290 适用于产线、追溯工位和设备集成。",
+    "R170 / R172 and R270-A / R275-A readers for smaller machines, narrow positions, and embedded applications.": "R170 / R172 和 R270-A / R275-A 适用于小型设备、狭窄位置和嵌入式应用。",
+    "H620 and H920 for inspection, warehouse scanning, maintenance, and flexible production support.": "H620 和 H920 适用于检测、仓储扫码、维护和灵活生产支持。",
+    "D100 PDA and ES100 software decoding engine options can be discussed after confirming application needs.": "D100 PDA 和 ES100 软件解码引擎可在确认应用需求后进一步讨论。",
+    "Use the three featured models as the main sales entry. For fixed-reader selection, the internal selector data currently covers RS60, RS80-M, RS100-A / RS100-M, and the RS200 family sub-series.": "以三款主推型号作为主要销售入口。固定式读码器选型方面，内部选型数据目前覆盖 RS60、RS80-M、RS100-A / RS100-M 以及 RS200 家族子系列。",
+    "Standard fixed industrial reader for production lines, compact equipment, and common 1D/2D code reading.": "标准固定式工业读码器，适用于产线、紧凑设备和常见一维/二维读码。",
+    "Higher-performance fixed reader family covering RS210, RS220, RS250, and RS290 for demanding scenarios.": "高性能固定式读码器家族，覆盖 RS210、RS220、RS250 和 RS290，适用于更高要求场景。",
+    "Handheld industrial reader for inspection, warehouse scanning, workstation reading, and flexible workflows.": "手持式工业读码器，适用于检测、仓储扫码、工位读取和灵活流程。",
+    "Fixed reader option in the selector dataset, with 6mm, 12mm, and 16mm lens options.": "选型数据中的固定式读码器选项，提供 6mm、12mm 和 16mm 镜头配置。",
+    "Stable fixed reader family. Selector data maps NRS100A to RS100 purchase-model logic.": "稳定的固定式读码器系列。选型数据将 NRS100A 映射到 RS100 销售型号逻辑。",
+    "Compact reader options found in the selector price data and product image materials.": "在选型价格数据和产品图片资料中出现的紧凑型读码器选项。",
+    "Compact industrial reader options listed in the price data for embedded code reading positions.": "价格数据中列出的紧凑型工业读码器选项，适用于嵌入式读码位置。",
+    "Convenient reader option for flexible code reading needs where a lighter deployment style is preferred.": "便捷式读码器选项，适用于希望轻量部署的灵活读码需求。",
+    "Industrial handheld reader option with wired and wireless source materials available for selection.": "工业手持式读码器选项，资料中包含有线和无线版本可供选择。",
+    "The following series are confirmed from the local selector dataset generated on 2026-06-08. The dataset contains 402 raw rows and 398 unique specification rows after deduplication.": "以下系列来自 2026-06-08 生成的本地选型数据。该数据包含 402 条原始记录，去重后为 398 条唯一规格记录。",
+    "These models are present in price data, brochures, images, or product videos, but are not part of the fixed reader selector specification table above. They can still be used as inquiry options after confirming data.": "这些型号出现在价格数据、手册、图片或产品视频中，但不属于上方固定式读码器选型规格表。确认资料后仍可作为询盘选项。",
+    "Code type: 1D barcode, QR code, Data Matrix, DPM, or mixed code types.": "码制：一维码、二维码、Data Matrix、DPM 或混合码制。",
+    "Reading mode: fixed installation, compact embedded installation, handheld scanning, PDA, or software decoding.": "读取方式：固定安装、紧凑嵌入式安装、手持扫码、PDA 或软件解码。",
+    "Working distance, code size, field of view, line speed, interface requirements, and expected quantity.": "工作距离、码尺寸、视野、线速、接口需求和预计数量。",
+    "Sample code images and application photos help SJI recommend a more suitable product family.": "样品码图片和应用现场照片有助于 SJI 推荐更合适的产品系列。",
+    "RS60 is positioned as a compact fixed industrial barcode reader for production line installation, equipment integration, and standard manufacturing code reading applications.": "RS60 定位为紧凑型固定式工业读码器，适用于产线安装、设备集成和标准制造读码应用。",
+    "RS60 covers short to medium reading distances and compact field-of-view requirements. It is suitable for equipment builders and production teams looking for a fixed reader for standard 1D and 2D code reading.": "RS60 覆盖短到中距离读取和紧凑视野需求，适合设备厂和生产团队用于标准一维/二维读码。",
+    "Packaging lines, compact machines, electronics production, standard traceability stations.": "包装线、紧凑设备、电子生产、标准追溯工位。",
+    "F5 and F10 options are available in the selection data.": "选型数据中提供 F5 和 F10 选项。",
+    "Share code size, reading distance, field of view, and installation space for model selection.": "请提供码尺寸、读取距离、视野和安装空间以便选型。",
+    "Use this clip to show compact fixed-reader installation and code reading in an electronics production scenario.": "该片段可用于展示电子生产场景中的紧凑固定式读码安装和读取效果。",
+    "The RS200 family is positioned for demanding industrial code reading and traceability applications, including larger field-of-view needs, longer working distances, and challenging production environments.": "RS200 家族面向更高要求的工业读码和追溯应用，包括更大视野、更长工作距离和复杂生产环境。",
+    "Use this video as a product demonstration asset for overseas customers.": "该视频可作为面向海外客户的产品演示资料。",
+    "Automotive parts, electronics traceability, packaging, DPM codes, and high-demand production lines.": "汽车零部件、电子追溯、包装、DPM 码和高要求产线。",
+    "Send code type, code size, line speed, reading distance, field of view, and sample images if available.": "请提供码制、码尺寸、线速、读取距离、视野，如有样品图也请一并发送。",
+    "Product brochure and video are available in the source documents and can be refined for public downloads.": "源资料中已有产品手册和视频，后续可整理为公开下载资料。",
+    "H620 is a handheld industrial barcode reader for flexible scanning, warehouse operations, incoming inspection, workstation reading, and production support scenarios.": "H620 是手持式工业读码器，适用于灵活扫码、仓储作业、来料检查、工位读取和生产支持场景。",
+    "Use this video to show overseas customers how H620 can support flexible handheld code reading scenarios.": "该视频可向海外客户展示 H620 如何支持灵活的手持式读码场景。",
+    "Warehouse scanning, incoming inspection, workstation reading, maintenance, and flexible production support.": "仓储扫码、来料检查、工位读取、维护和灵活生产支持。",
+    "Suitable for common 1D and 2D industrial code reading needs. Detailed optical parameters should be confirmed from the H620 datasheet.": "适用于常见一维和二维工业读码需求。详细光学参数应以 H620 数据表确认。",
+    "Send your code type, sample image, working distance, interface needs, and order quantity for recommendation.": "请提供码制、样品图片、工作距离、接口需求和订单数量，以便推荐。",
+    "Scanning scenario: warehouse, production line, inspection station, or maintenance.": "扫码场景：仓储、产线、检测工位或维护。",
+    "Communication requirement: USB, wired, wireless, or other interface needs.": "通信需求：USB、有线、无线或其他接口需求。",
+    "Sample code image and expected reading distance if available.": "如有样品码图片和预期读取距离，请一并提供。",
+    "SJI supplies own-brand C-mount fixed focal length lenses for machine vision imaging, code reading, positioning, inspection, and measurement applications.": "SJI 供应自有品牌 C 接口定焦镜头，适用于机器视觉成像、读码、定位、检测和测量应用。",
+    "The current source material includes two major lens groups. The C Series focuses on 12MP imaging needs, while the K Series covers 25MP, 1.1 inch applications with focal lengths from 12mm to 75mm.": "当前资料包含两大镜头组。C 系列面向 12MP 成像需求，K 系列覆盖 25MP、1.1 英寸应用，焦距从 12mm 到 75mm。",
+    "Models include 8mm, 12mm, 16mm, 25mm, 35mm, and 50mm focal length options for industrial vision imaging.": "型号包含 8mm、12mm、16mm、25mm、35mm 和 50mm 焦距选项，适用于工业视觉成像。",
+    "1.1 inch 25MP fixed focal lenses with 12mm, 16mm, 25mm, 35mm, 50mm, and 75mm options.": "1.1 英寸 25MP 定焦镜头，提供 12mm、16mm、25mm、35mm、50mm 和 75mm 选项。",
+    "Share camera sensor size, working distance, target FOV, resolution requirement, and installation space.": "请提供相机传感器尺寸、工作距离、目标视野、分辨率要求和安装空间。",
+    "Camera sensor size, resolution, and mount type.": "相机传感器尺寸、分辨率和接口类型。",
+    "Working distance and required field of view.": "工作距离和所需视野。",
+    "Target object size, inspection precision, and lighting condition.": "目标物尺寸、检测精度和照明条件。",
+    "Application type: code reading, positioning, measurement, defect inspection, or general imaging.": "应用类型：读码、定位、测量、缺陷检测或常规成像。",
+    "Fixed Barcode Readers": "固定式读码器",
+    "Fixed Readers": "固定式读码器",
+    "View Fixed Readers": "查看固定式读码器",
+    "Compact Barcode Readers": "紧凑型读码器",
+    "Compact Readers": "紧凑型读码器",
+    "View Compact Readers": "查看紧凑型读码器",
+    "Handheld & Mobile Reading": "手持与移动读码",
+    "Handheld Readers": "手持式读码器",
+    "PDA / Software Engine": "PDA / 软件解码引擎",
+    "Fixed Reader": "固定式读码器",
+    "1D / 2D Codes": "一维 / 二维码",
+    "20-210 mm Range": "20-210 mm 范围",
+    "F5 / F10 Lens Options": "F5 / F10 镜头选项",
+    "20-2000 mm Range": "20-2000 mm 范围",
+    "View Handheld Options": "查看手持式选项",
+    "Machine Vision Lenses": "机器视觉镜头",
+    "View Lens Models": "查看镜头型号",
+    "View RS60 Details": "查看 RS60 详情",
+    "View RS200 Details": "查看 RS200 详情",
+    "View H620 Details": "查看 H620 详情",
+    "Barcode Reader Lineup": "读码器产品线",
+    "Industrial Code Reading Product Options": "工业读码产品选项",
+    "Product Navigation": "产品导航",
+    "Choose by Installation Method": "按安装方式选择",
+    "Fixed": "固定式",
+    "Compact": "紧凑型",
+    "Handheld": "手持式",
+    "Engine": "引擎",
+    "Machine-Mounted Reading": "设备安装读码",
+    "Limited-Space Installation": "受限空间安装",
+    "Manual Scanning Workflows": "人工扫码流程",
+    "Mobile or Software Decoding": "移动端或软件解码",
+    "Featured and Extended Models": "主推与扩展型号",
+    "Recommended Product Families": "推荐产品系列",
+    "Featured Fixed Reader": "主推固定式读码器",
+    "Featured High-Performance Reader": "主推高性能读码器",
+    "Featured Handheld Reader": "主推手持式读码器",
+    "Selector-Calibrated Fixed Reader": "选型数据校准固定式读码器",
+    "Compact Reader": "紧凑型读码器",
+    "Convenient Reader": "便捷式读码器",
+    "Handheld Reader": "手持式读码器",
+    "Selector Data": "选型数据",
+    "Inquiry": "询盘",
+    "Flexible": "灵活",
+    "Convenient": "便捷",
+    "Wired / Wireless": "有线 / 无线",
+    "Selector-Calibrated Series": "选型数据校准系列",
+    "Fixed Reader Series Confirmed from Selector Data": "已由选型数据确认的固定式读码器系列",
+    "Additional Inquiry Models": "补充询盘型号",
+    "Models Found in Price or Catalog Materials": "价格表或产品资料中出现的型号",
+    "Recommended Inquiry Information": "建议提供的询盘信息",
+    "Standard Fixed Barcode Reader": "标准固定式读码器",
+    "High-Performance Fixed Barcode Reader": "高性能固定式读码器",
+    "Handheld Industrial Barcode Reader": "手持式工业读码器",
+    "Product Information": "产品信息",
+    "Designed for Standard Industrial Code Reading": "面向标准工业读码设计",
+    "Typical Use": "典型用途",
+    "Lens Options": "镜头选项",
+    "Selection Support": "选型支持",
+    "Application Video": "应用视频",
+    "RS60 in PCB QR Code Reading": "RS60 在 PCB 二维码读取中的应用",
+    "Application Clip": "应用片段",
+    "Electronics Production QR Code Reading": "电子生产二维码读取",
+    "Selection Data": "选型数据",
+    "RS60 Selection Range": "RS60 选型范围",
+    "Product Video": "产品视频",
+    "RS200 Product Introduction": "RS200 产品介绍",
+    "English Subtitle Video": "英文字幕视频",
+    "Industrial Barcode Reader Product Video": "工业读码器产品视频",
+    "RS200 Family Selection Range": "RS200 家族选型范围",
+    "Typical Applications": "典型应用",
+    "Inquiry Tip": "询盘提示",
+    "Source Material": "源资料",
+    "Flexible Scanning": "灵活扫码",
+    "Warehouse": "仓储",
+    "Inspection": "检测",
+    "H620 in Industrial QR Code Reading": "H620 工业二维码读取应用",
+    "Semiconductor QR Code Reading": "半导体二维码读取",
+    "Flexible Scanning for Industrial Workflows": "面向工业流程的灵活扫码",
+    "Code Reading": "读码",
+    "Industrial Fixed Focal Length Lenses": "工业定焦镜头",
+    "Manual Iris / Focus": "手动光圈 / 对焦",
+    "Ask for Lens Selection": "咨询镜头选型",
+    "Back to Lens Overview": "返回镜头概览",
+    "Product Line": "产品线",
+    "Lens Series Available for Industrial Imaging": "适用于工业成像的镜头系列",
+    "C Series 12MP": "C 系列 12MP",
+    "K Series 25MP": "K 系列 25MP",
+    "Model Matrix": "型号矩阵",
+    "Machine Vision Lens Models": "机器视觉镜头型号",
+    "Recommended Lens Inquiry Information": "建议提供的镜头询盘信息",
+    "Series": "系列",
+    "Lens Options": "镜头选项",
+    "Working Distance": "工作距离",
+    "Distance": "距离",
+    "Focal Length": "焦距",
+    "Resolution": "分辨率",
+    "Mount": "接口",
+    "Dimensions": "尺寸",
+    "Item": "项目",
+    "Reading distance": "读取距离",
+    "Field of view X": "视野 X",
+    "Field of view Y": "视野 Y",
+    "1D resolution": "一维码分辨率",
+    "2D resolution": "二维码分辨率",
+    "Model / Family": "型号 / 系列",
+    "Source Checked": "已核对来源",
+    "Public Use": "对外用途",
+    "Website Status": "网站状态",
+    "Ask for Model Selection": "咨询型号选型",
+    "Back to Featured Models": "返回主推型号",
+    "Ask for RS60": "咨询 RS60",
+    "Ask for RS200": "咨询 RS200",
+    "Ask for H620": "咨询 H620",
+    "Watch Application Video": "观看应用视频",
+    "Watch Video": "观看视频",
+    "Back to Products": "返回产品"
+  },
+  "zh-Hant": {},
+  ja: {},
+  ko: {},
+  th: {},
+  vi: {}
+};
+
+staticPhraseTranslations["zh-Hant"] = Object.fromEntries(
+  Object.entries(staticPhraseTranslations["zh-CN"]).map(([key, value]) => [
+    key,
+    value
+      .replaceAll("读码", "讀碼")
+      .replaceAll("产品", "產品")
+      .replaceAll("选型", "選型")
+      .replaceAll("型号", "型號")
+      .replaceAll("固定式", "固定式")
+      .replaceAll("镜头", "鏡頭")
+      .replaceAll("视频", "影片")
+      .replaceAll("应用", "應用")
+      .replaceAll("查询", "查詢")
+      .replaceAll("紧凑", "緊湊")
+      .replaceAll("二维码", "二維碼")
+      .replaceAll("一维码", "一維碼")
+      .replaceAll("分辨率", "解析度")
+      .replaceAll("视野", "視野")
+      .replaceAll("对焦", "對焦")
+      .replaceAll("询盘", "詢盤")
+      .replaceAll("返回", "返回")
+      .replaceAll("查看", "查看")
+  ])
+);
+
+Object.assign(staticPhraseTranslations.ja, {
+  "Fixed Barcode Readers": "固定式バーコードリーダー",
+  "Compact Barcode Readers": "コンパクトバーコードリーダー",
+  "Handheld & Mobile Reading": "ハンディ・モバイル読取",
+  "Machine Vision Lenses": "マシンビジョンレンズ",
+  "View Fixed Readers": "固定式リーダーを見る",
+  "View Compact Readers": "コンパクトリーダーを見る",
+  "View Handheld Options": "ハンディオプションを見る",
+  "View Lens Models": "レンズモデルを見る",
+  "Barcode Reader Lineup": "バーコードリーダー製品ライン",
+  "Industrial Code Reading Product Options": "産業用コード読取製品オプション",
+  "Product Navigation": "製品ナビゲーション",
+  "Choose by Installation Method": "設置方法で選択",
+  "Recommended Product Families": "推奨製品ファミリー",
+  "Product Information": "製品情報",
+  "Selection Data": "選定データ",
+  "Application Video": "アプリケーション動画",
+  "Product Video": "製品動画",
+  "Typical Use": "代表的な用途",
+  "Inquiry Tip": "問い合わせのヒント",
+  "Recommended Inquiry Information": "推奨問い合わせ情報",
+  "Industrial Fixed Focal Length Lenses": "産業用固定焦点レンズ",
+  "Lens Series Available for Industrial Imaging": "産業画像処理向けレンズシリーズ",
+  "Machine Vision Lens Models": "マシンビジョンレンズモデル",
+  "Ask for Model Selection": "モデル選定を相談",
+  "Watch Application Video": "アプリケーション動画を見る",
+  "Back to Products": "製品に戻る",
+  "Back to Featured Models": "主力モデルに戻る",
+  "Series": "シリーズ",
+  "Lens Options": "レンズオプション",
+  "Working Distance": "作動距離",
+  "Distance": "距離",
+  "Resolution": "解像度",
+  "Mount": "マウント",
+  "Dimensions": "寸法"
+});
+Object.assign(staticPhraseTranslations.ko, {
+  "Fixed Barcode Readers": "고정식 바코드 리더",
+  "Compact Barcode Readers": "컴팩트 바코드 리더",
+  "Handheld & Mobile Reading": "핸드헬드 및 모바일 리딩",
+  "Machine Vision Lenses": "머신비전 렌즈",
+  "Barcode Reader Lineup": "바코드 리더 라인업",
+  "Industrial Code Reading Product Options": "산업용 코드 리딩 제품 옵션",
+  "Product Navigation": "제품 탐색",
+  "Choose by Installation Method": "설치 방식으로 선택",
+  "Recommended Product Families": "추천 제품군",
+  "Product Information": "제품 정보",
+  "Selection Data": "선정 데이터",
+  "Application Video": "응용 영상",
+  "Product Video": "제품 영상",
+  "Typical Use": "일반 용도",
+  "Inquiry Tip": "문의 팁",
+  "Recommended Inquiry Information": "권장 문의 정보",
+  "Series": "시리즈",
+  "Lens Options": "렌즈 옵션",
+  "Working Distance": "작동 거리",
+  "Distance": "거리",
+  "Resolution": "해상도",
+  "Mount": "마운트",
+  "Dimensions": "치수"
+});
+Object.assign(staticPhraseTranslations.th, {
+  "Fixed Barcode Readers": "เครื่องอ่านบาร์โค้ดแบบติดตั้งประจำ",
+  "Compact Barcode Readers": "เครื่องอ่านบาร์โค้ดขนาดกะทัดรัด",
+  "Handheld & Mobile Reading": "การอ่านแบบมือถือและเคลื่อนที่",
+  "Machine Vision Lenses": "เลนส์แมชชีนวิชัน",
+  "Barcode Reader Lineup": "กลุ่มเครื่องอ่านบาร์โค้ด",
+  "Industrial Code Reading Product Options": "ตัวเลือกผลิตภัณฑ์อ่านโค้ดอุตสาหกรรม",
+  "Product Navigation": "การนำทางผลิตภัณฑ์",
+  "Choose by Installation Method": "เลือกตามวิธีติดตั้ง",
+  "Recommended Product Families": "กลุ่มผลิตภัณฑ์ที่แนะนำ",
+  "Product Information": "ข้อมูลผลิตภัณฑ์",
+  "Selection Data": "ข้อมูลการเลือก",
+  "Application Video": "วิดีโอการใช้งาน",
+  "Product Video": "วิดีโอผลิตภัณฑ์",
+  "Typical Use": "การใช้งานทั่วไป",
+  "Inquiry Tip": "คำแนะนำในการสอบถาม",
+  "Recommended Inquiry Information": "ข้อมูลที่แนะนำสำหรับการสอบถาม",
+  "Series": "ซีรีส์",
+  "Lens Options": "ตัวเลือกเลนส์",
+  "Working Distance": "ระยะทำงาน",
+  "Distance": "ระยะ",
+  "Resolution": "ความละเอียด",
+  "Mount": "เมาท์",
+  "Dimensions": "ขนาด"
+});
+Object.assign(staticPhraseTranslations.vi, {
+  "Fixed Barcode Readers": "Đầu đọc mã vạch cố định",
+  "Compact Barcode Readers": "Đầu đọc mã vạch nhỏ gọn",
+  "Handheld & Mobile Reading": "Đọc mã cầm tay và di động",
+  "Machine Vision Lenses": "Ống kính thị giác máy",
+  "Barcode Reader Lineup": "Dòng sản phẩm đầu đọc mã vạch",
+  "Industrial Code Reading Product Options": "Tùy chọn sản phẩm đọc mã công nghiệp",
+  "Product Navigation": "Điều hướng sản phẩm",
+  "Choose by Installation Method": "Chọn theo phương thức lắp đặt",
+  "Recommended Product Families": "Dòng sản phẩm đề xuất",
+  "Product Information": "Thông tin sản phẩm",
+  "Selection Data": "Dữ liệu lựa chọn",
+  "Application Video": "Video ứng dụng",
+  "Product Video": "Video sản phẩm",
+  "Typical Use": "Ứng dụng điển hình",
+  "Inquiry Tip": "Gợi ý khi gửi yêu cầu",
+  "Recommended Inquiry Information": "Thông tin nên cung cấp khi hỏi hàng",
+  "Series": "Dòng",
+  "Lens Options": "Tùy chọn ống kính",
+  "Working Distance": "Khoảng cách làm việc",
+  "Distance": "Khoảng cách",
+  "Resolution": "Độ phân giải",
+  "Mount": "Ngàm",
+  "Dimensions": "Kích thước"
+});
+
+const pageTitleTranslations = {
+  "/": {
+    "zh-CN": "SJI | 工业读码器与机器视觉产品",
+    "zh-Hant": "SJI | 工業讀碼器與機器視覺產品",
+    ja: "SJI | 産業用バーコードリーダーとマシンビジョン製品",
+    ko: "SJI | 산업용 바코드 리더 및 머신비전 제품",
+    th: "SJI | เครื่องอ่านบาร์โค้ดอุตสาหกรรมและผลิตภัณฑ์แมชชีนวิชัน",
+    vi: "SJI | Đầu đọc mã vạch công nghiệp & sản phẩm thị giác máy"
+  }
+};
+
 const languageSelect = document.querySelector("#languageSelect");
 const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
+const originalTextNodes = new WeakMap();
+const originalTitle = document.title;
+
+function normalizeText(value) {
+  return value.trim().replace(/\s+/g, " ");
+}
+
+function translateStaticText(lang) {
+  const phraseMap = staticPhraseTranslations[lang] || {};
+  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (!node.textContent.trim()) return NodeFilter.FILTER_REJECT;
+      const parent = node.parentElement;
+      if (!parent || parent.closest("script, style, [data-i18n]")) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (!originalTextNodes.has(node)) {
+      originalTextNodes.set(node, node.textContent);
+    }
+    const original = originalTextNodes.get(node);
+    const normalized = normalizeText(original);
+    if (lang === "en") {
+      node.textContent = original;
+    } else if (phraseMap[normalized]) {
+      node.textContent = original.match(/^\s*/)[0] + phraseMap[normalized] + original.match(/\s*$/)[0];
+    }
+  }
+}
+
+function updateDocumentTitle(lang) {
+  if (lang === "en") {
+    document.title = originalTitle;
+    return;
+  }
+  const path = window.location.pathname.endsWith("/") ? "/" : window.location.pathname;
+  const titleMap = pageTitleTranslations[path] || pageTitleTranslations["/"];
+  if (titleMap?.[lang]) {
+    document.title = titleMap[lang];
+  }
+}
 
 function applyLanguage(lang) {
   const dictionary = { ...translations.en, ...(translations[lang] || {}) };
@@ -286,6 +965,8 @@ function applyLanguage(lang) {
     }
   });
 
+  translateStaticText(lang);
+  updateDocumentTitle(lang);
   document.documentElement.lang = lang;
   localStorage.setItem("sji-language", lang);
 }
@@ -308,7 +989,8 @@ navLinks.forEach((link) => {
   link.addEventListener("click", closeMenu);
 });
 
-const savedLanguage = localStorage.getItem("sji-language") || "en";
+const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+const savedLanguage = requestedLanguage || localStorage.getItem("sji-language") || "en";
 if (languageSelect) {
   languageSelect.value = translations[savedLanguage] ? savedLanguage : "en";
   applyLanguage(languageSelect.value);

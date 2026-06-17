@@ -8,11 +8,49 @@
       content="SJI supplies industrial barcode readers, machine vision lenses, and vision-related components for manufacturers, integrators, distributors, and industrial buyers."
     />
     <link rel="canonical" href="https://www.zhsji.com/" />
+    <link rel="alternate" hreflang="en" href="https://www.zhsji.com/?lang=en" />
+    <link rel="alternate" hreflang="zh-CN" href="https://www.zhsji.com/?lang=zh-CN" />
+    <link rel="alternate" hreflang="zh-Hant" href="https://www.zhsji.com/?lang=zh-Hant" />
+    <link rel="alternate" hreflang="ja" href="https://www.zhsji.com/?lang=ja" />
+    <link rel="alternate" hreflang="ko" href="https://www.zhsji.com/?lang=ko" />
+    <link rel="alternate" hreflang="th" href="https://www.zhsji.com/?lang=th" />
+    <link rel="alternate" hreflang="vi" href="https://www.zhsji.com/?lang=vi" />
+    <link rel="alternate" hreflang="x-default" href="https://www.zhsji.com/" />
     <meta property="og:title" content="SJI | Industrial Barcode Readers & Machine Vision Products" />
     <meta property="og:description" content="SJI supplies industrial barcode readers, machine vision lenses, and vision-related components for manufacturers, integrators, distributors, and industrial buyers." />
     <meta property="og:url" content="https://www.zhsji.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://www.zhsji.com/assets/rs200-web.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.zhsji.com/#organization",
+            "name": "Zhuhai Sanjie Intelligent Technology Co., Ltd",
+            "alternateName": "SJI",
+            "url": "https://www.zhsji.com/",
+            "logo": "https://www.zhsji.com/assets/logo-dark-theme.svg",
+            "email": "Sales@zhsji.com",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Room 707, 7th Floor, No. 77 Huawei Road, Xiangzhou District",
+              "addressLocality": "Zhuhai",
+              "addressRegion": "Guangdong",
+              "addressCountry": "CN"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.zhsji.com/#website",
+            "url": "https://www.zhsji.com/",
+            "name": "SJI",
+            "publisher": { "@id": "https://www.zhsji.com/#organization" }
+          }
+        ]
+      }
+    </script>
     <title>SJI | Industrial Barcode Readers & Machine Vision Products</title>
     <link rel="icon" href="./assets/company-icon.ico" />
     <link rel="stylesheet" href="./styles.css" />
@@ -439,8 +477,16 @@
           </p>
           <div class="contact-details">
             <p><strong data-i18n="contact.companyLabel">Company</strong><span data-i18n="contact.company">Zhuhai Sanjie Intelligent Technology Co., Ltd.</span></p>
-            <p><strong data-i18n="contact.emailLabel">Email</strong><a href="mailto:Sales@zhsji.com">Sales@zhsji.com</a></p>
-            <p><strong data-i18n="contact.whatsappLabel">WhatsApp</strong><span data-i18n="contact.whatsapp">San Jie Intelligent</span></p>
+            <p>
+              <strong data-i18n="contact.emailLabel">Email</strong>
+              <a href="mailto:Sales@zhsji.com">Sales@zhsji.com</a>
+              <button class="copy-button" type="button" data-copy="Sales@zhsji.com">Copy</button>
+            </p>
+            <p>
+              <strong data-i18n="contact.whatsappLabel">WhatsApp</strong>
+              <span data-i18n="contact.whatsapp">San Jie Intelligent</span>
+              <button class="copy-button" type="button" data-copy="San Jie Intelligent">Copy</button>
+            </p>
             <p>
               <strong data-i18n="contact.addressLabel">Address</strong>
               <span data-i18n="contact.address">China, Room 707, 7th Floor, No. 77 Huawei Road, Xiangzhou District, Zhuhai City, Guangdong Province, China</span>
@@ -485,6 +531,7 @@
             <span data-i18n="form.message">Message</span>
             <textarea name="message" rows="5"></textarea>
           </label>
+          <p class="form-note">This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.</p>
           <button class="button primary" type="submit" data-i18n="form.submit">Submit Inquiry</button>
         </form>
       </section>

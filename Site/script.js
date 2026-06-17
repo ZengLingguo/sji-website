@@ -2456,6 +2456,151 @@ Object.entries(finalLanguageReviewTranslations).forEach(([lang, dictionary]) => 
   staticPhraseTranslations[lang] = { ...staticPhraseTranslations[lang], ...dictionary };
 });
 
+const conversionSupportTranslations = {
+  "zh-CN": {
+    "Copy": "复制",
+    "Copied": "已复制",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "提交表单会打开您的邮件客户端。您也可以复制左侧邮箱或 WhatsApp 联系方式，直接发送询盘。",
+    "For faster model selection": "为了更快选型",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "请发送码制、码尺寸、工作距离、目标视野、线速、接口、数量，如有样张也请一并提供。",
+    "Representative image. Final model appearance may vary by configuration.": "代表图。最终型号外观可能因配置不同而略有差异。",
+    "Supply & Trade Info": "供货与贸易信息",
+    "MOQ": "起订量",
+    "Lead time": "交期",
+    "Warranty": "质保",
+    "Documents": "资料",
+    "Confirm with sales": "请与销售确认",
+    "Confirm by quantity and stock": "根据数量和库存确认",
+    "Confirm by model, quantity, and stock": "根据型号、数量和库存确认",
+    "Confirm by focal length, quantity, and stock": "根据焦距、数量和库存确认",
+    "Standard industrial product support": "标准工业产品支持",
+    "Standard industrial lens support": "标准工业镜头支持",
+    "Datasheet and model selection support available on request": "可按需提供资料表和选型支持",
+    "RS200 family datasheet and model recommendation available on request": "可按需提供 RS200 家族资料表和型号推荐",
+    "Datasheet and handheld workflow support available on request": "可按需提供资料表和手持读码流程支持",
+    "Lens model sheet and selection support available on request": "可按需提供镜头型号表和选型支持"
+  },
+  "zh-Hant": {
+    "Copy": "複製",
+    "Copied": "已複製",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "提交表單會開啟您的郵件客戶端。您也可以複製左側郵箱或 WhatsApp 聯絡方式，直接發送詢盤。",
+    "For faster model selection": "為了更快選型",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "請提供碼制、碼尺寸、工作距離、目標視野、線速、介面、數量，如有樣張也請一併提供。",
+    "Representative image. Final model appearance may vary by configuration.": "代表圖。最終型號外觀可能因配置不同而略有差異。",
+    "Supply & Trade Info": "供貨與貿易資訊",
+    "MOQ": "起訂量",
+    "Lead time": "交期",
+    "Warranty": "保固",
+    "Documents": "資料",
+    "Confirm with sales": "請與銷售確認",
+    "Confirm by quantity and stock": "根據數量和庫存確認",
+    "Confirm by model, quantity, and stock": "根據型號、數量和庫存確認",
+    "Confirm by focal length, quantity, and stock": "根據焦距、數量和庫存確認",
+    "Standard industrial product support": "標準工業產品支援",
+    "Standard industrial lens support": "標準工業鏡頭支援",
+    "Datasheet and model selection support available on request": "可按需提供資料表和選型支援",
+    "RS200 family datasheet and model recommendation available on request": "可按需提供 RS200 家族資料表和型號推薦",
+    "Datasheet and handheld workflow support available on request": "可按需提供資料表和手持讀碼流程支援",
+    "Lens model sheet and selection support available on request": "可按需提供鏡頭型號表和選型支援"
+  },
+  ja: {
+    "Copy": "コピー",
+    "Copied": "コピー済み",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "送信時にメールソフトが開きます。左側のメールまたは WhatsApp 連絡先をコピーして、直接お問い合わせいただくこともできます。",
+    "For faster model selection": "より早い機種選定のために",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "コード種別、コードサイズ、作動距離、必要視野、ライン速度、インターフェース、数量、可能であればサンプル画像をお送りください。",
+    "Representative image. Final model appearance may vary by configuration.": "代表画像です。最終モデルの外観は構成により異なる場合があります。",
+    "Supply & Trade Info": "供給・取引情報",
+    "MOQ": "最小注文数量",
+    "Lead time": "納期",
+    "Warranty": "保証",
+    "Documents": "資料",
+    "Confirm with sales": "営業担当に確認",
+    "Confirm by quantity and stock": "数量と在庫により確認",
+    "Confirm by model, quantity, and stock": "モデル、数量、在庫により確認",
+    "Confirm by focal length, quantity, and stock": "焦点距離、数量、在庫により確認",
+    "Standard industrial product support": "標準的な産業製品サポート",
+    "Standard industrial lens support": "標準的な産業用レンズサポート",
+    "Datasheet and model selection support available on request": "データシートと機種選定サポートを提供可能",
+    "RS200 family datasheet and model recommendation available on request": "RS200 ファミリーのデータシートと推奨モデルを提供可能",
+    "Datasheet and handheld workflow support available on request": "データシートとハンドヘルド運用サポートを提供可能",
+    "Lens model sheet and selection support available on request": "レンズ型番表と選定サポートを提供可能"
+  },
+  ko: {
+    "Copy": "복사",
+    "Copied": "복사됨",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "양식을 제출하면 메일 클라이언트가 열립니다. 왼쪽의 이메일 또는 WhatsApp 연락처를 복사해 직접 문의할 수도 있습니다.",
+    "For faster model selection": "빠른 모델 선정을 위해",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "코드 종류, 코드 크기, 작업 거리, 목표 FOV, 라인 속도, 인터페이스, 수량, 가능하면 샘플 이미지를 보내주세요.",
+    "Representative image. Final model appearance may vary by configuration.": "대표 이미지입니다. 최종 모델 외관은 구성에 따라 다를 수 있습니다.",
+    "Supply & Trade Info": "공급 및 거래 정보",
+    "MOQ": "최소 주문 수량",
+    "Lead time": "납기",
+    "Warranty": "보증",
+    "Documents": "자료",
+    "Confirm with sales": "영업 담당자와 확인",
+    "Confirm by quantity and stock": "수량과 재고에 따라 확인",
+    "Confirm by model, quantity, and stock": "모델, 수량, 재고에 따라 확인",
+    "Confirm by focal length, quantity, and stock": "초점거리, 수량, 재고에 따라 확인",
+    "Standard industrial product support": "표준 산업용 제품 지원",
+    "Standard industrial lens support": "표준 산업용 렌즈 지원",
+    "Datasheet and model selection support available on request": "요청 시 데이터시트와 모델 선정 지원 제공",
+    "RS200 family datasheet and model recommendation available on request": "요청 시 RS200 제품군 데이터시트와 모델 추천 제공",
+    "Datasheet and handheld workflow support available on request": "요청 시 데이터시트와 핸드헬드 작업 흐름 지원 제공",
+    "Lens model sheet and selection support available on request": "요청 시 렌즈 모델표와 선정 지원 제공"
+  },
+  th: {
+    "Copy": "คัดลอก",
+    "Copied": "คัดลอกแล้ว",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "แบบฟอร์มนี้จะเปิดโปรแกรมอีเมลของคุณ คุณสามารถคัดลอกอีเมลหรือ WhatsApp ทางด้านซ้ายเพื่อส่งคำถามได้โดยตรง",
+    "For faster model selection": "เพื่อการเลือกรุ่นที่รวดเร็วขึ้น",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "กรุณาส่งชนิดโค้ด ขนาดโค้ด ระยะทำงาน FOV ที่ต้องการ ความเร็วไลน์ อินเทอร์เฟซ จำนวน และภาพตัวอย่างถ้ามี",
+    "Representative image. Final model appearance may vary by configuration.": "เป็นภาพตัวแทน รูปลักษณ์ของรุ่นจริงอาจแตกต่างตามการกำหนดค่า",
+    "Supply & Trade Info": "ข้อมูลการจัดหาและการค้า",
+    "MOQ": "ขั้นต่ำสั่งซื้อ",
+    "Lead time": "ระยะเวลาส่งมอบ",
+    "Warranty": "การรับประกัน",
+    "Documents": "เอกสาร",
+    "Confirm with sales": "ยืนยันกับฝ่ายขาย",
+    "Confirm by quantity and stock": "ยืนยันตามจำนวนและสต็อก",
+    "Confirm by model, quantity, and stock": "ยืนยันตามรุ่น จำนวน และสต็อก",
+    "Confirm by focal length, quantity, and stock": "ยืนยันตามทางยาวโฟกัส จำนวน และสต็อก",
+    "Standard industrial product support": "การสนับสนุนผลิตภัณฑ์อุตสาหกรรมมาตรฐาน",
+    "Standard industrial lens support": "การสนับสนุนเลนส์อุตสาหกรรมมาตรฐาน",
+    "Datasheet and model selection support available on request": "สามารถให้ดาต้าชีตและการสนับสนุนเลือกรุ่นตามคำขอ",
+    "RS200 family datasheet and model recommendation available on request": "สามารถให้ดาต้าชีตตระกูล RS200 และคำแนะนำรุ่นตามคำขอ",
+    "Datasheet and handheld workflow support available on request": "สามารถให้ดาต้าชีตและการสนับสนุนเวิร์กโฟลว์แบบมือถือได้ตามคำขอ",
+    "Lens model sheet and selection support available on request": "สามารถให้ตารางรุ่นเลนส์และการสนับสนุนเลือกเลนส์ตามคำขอ"
+  },
+  vi: {
+    "Copy": "Sao chép",
+    "Copied": "Đã sao chép",
+    "This form opens your email client. You can also copy the email or WhatsApp contact on the left and send your inquiry directly.": "Biểu mẫu này sẽ mở ứng dụng email của bạn. Bạn cũng có thể sao chép email hoặc WhatsApp ở bên trái để gửi yêu cầu trực tiếp.",
+    "For faster model selection": "Để chọn model nhanh hơn",
+    "Send code type, code size, working distance, target FOV, line speed, interface, quantity, and sample images if available.": "Vui lòng gửi loại mã, kích thước mã, khoảng cách làm việc, FOV mục tiêu, tốc độ dây chuyền, giao diện, số lượng và ảnh mẫu nếu có.",
+    "Representative image. Final model appearance may vary by configuration.": "Hình ảnh đại diện. Ngoại hình model thực tế có thể thay đổi theo cấu hình.",
+    "Supply & Trade Info": "Thông tin cung ứng và thương mại",
+    "MOQ": "Số lượng tối thiểu",
+    "Lead time": "Thời gian giao hàng",
+    "Warranty": "Bảo hành",
+    "Documents": "Tài liệu",
+    "Confirm with sales": "Xác nhận với bộ phận kinh doanh",
+    "Confirm by quantity and stock": "Xác nhận theo số lượng và tồn kho",
+    "Confirm by model, quantity, and stock": "Xác nhận theo model, số lượng và tồn kho",
+    "Confirm by focal length, quantity, and stock": "Xác nhận theo tiêu cự, số lượng và tồn kho",
+    "Standard industrial product support": "Hỗ trợ sản phẩm công nghiệp tiêu chuẩn",
+    "Standard industrial lens support": "Hỗ trợ ống kính công nghiệp tiêu chuẩn",
+    "Datasheet and model selection support available on request": "Có thể cung cấp datasheet và hỗ trợ chọn model theo yêu cầu",
+    "RS200 family datasheet and model recommendation available on request": "Có thể cung cấp datasheet dòng RS200 và đề xuất model theo yêu cầu",
+    "Datasheet and handheld workflow support available on request": "Có thể cung cấp datasheet và hỗ trợ quy trình đọc mã cầm tay theo yêu cầu",
+    "Lens model sheet and selection support available on request": "Có thể cung cấp bảng model ống kính và hỗ trợ chọn ống kính theo yêu cầu"
+  }
+};
+
+Object.entries(conversionSupportTranslations).forEach(([lang, dictionary]) => {
+  staticPhraseTranslations[lang] = { ...staticPhraseTranslations[lang], ...dictionary };
+});
+
 const heroVisualTranslations = {
   en: {
     "heroVisual.eyebrow": "Featured lineup",
@@ -2612,6 +2757,43 @@ menuToggle?.addEventListener("click", () => {
 
 navLinks.forEach((link) => {
   link.addEventListener("click", closeMenu);
+});
+
+document.querySelectorAll("[data-copy]").forEach((button) => {
+  const value = button.getAttribute("data-copy") || "";
+
+  button.addEventListener("click", async () => {
+    const normalLabel = button.textContent;
+    const copiedLabel = staticPhraseTranslations[document.documentElement.lang]?.Copied || "Copied";
+
+    try {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(value);
+      } else {
+        const field = document.createElement("textarea");
+        field.value = value;
+        field.setAttribute("readonly", "");
+        field.style.position = "fixed";
+        field.style.opacity = "0";
+        document.body.appendChild(field);
+        field.select();
+        document.execCommand("copy");
+        field.remove();
+      }
+
+      button.textContent = copiedLabel;
+      button.classList.add("is-copied");
+      window.setTimeout(() => {
+        button.textContent = normalLabel;
+        button.classList.remove("is-copied");
+      }, 1600);
+    } catch (error) {
+      button.textContent = value;
+      window.setTimeout(() => {
+        button.textContent = normalLabel;
+      }, 2200);
+    }
+  });
 });
 
 const requestedLanguage = new URLSearchParams(window.location.search).get("lang");

@@ -841,6 +841,51 @@ h3 {
   padding-left: 18px;
 }
 
+.info-matrix {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.info-matrix span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.info-matrix strong {
+  display: block;
+  margin-top: 8px;
+  color: var(--text);
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.inquiry-cta {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  padding: 28px;
+  border: 1px solid rgba(255, 92, 110, 0.32);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(122, 16, 32, 0.34), rgba(122, 16, 32, 0.08) 44%, rgba(8, 9, 11, 0.78)),
+    var(--charcoal);
+}
+
+.inquiry-cta h2 {
+  font-size: clamp(1.45rem, 2vw, 2.1rem);
+}
+
+.inquiry-cta p {
+  max-width: 760px;
+  margin-top: 10px;
+  color: var(--muted);
+}
+
 .detail-actions {
   display: flex;
   flex-wrap: wrap;
@@ -1232,8 +1277,13 @@ td:first-child {
   .workflow-grid,
   .video-grid,
   .advantage-grid,
+  .info-matrix,
   .about-layout {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .inquiry-cta {
+    grid-template-columns: 1fr;
   }
 
   .about-layout {
@@ -1439,6 +1489,8 @@ td:first-child {
   .inquiry-form,
   .detail-hero,
   .detail-grid,
+  .info-matrix,
+  .inquiry-cta,
   .lens-stats {
     grid-template-columns: 1fr;
   }

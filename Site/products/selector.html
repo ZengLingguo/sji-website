@@ -69,28 +69,48 @@
       </div>
     </header>
 
-    <main class="product-detail-main selector-main">
-      <section class="detail-hero selector-hero">
-        <div>
-          <p class="eyebrow">Guided Selection</p>
-          <h1>Find the Right Barcode Reader</h1>
+    <main class="selector-wizard-main">
+      <div class="selector-progress" aria-label="Selection progress">
+        <button class="is-active" type="button" data-wizard-jump="intro">SJI</button>
+        <button type="button" data-wizard-jump="application">Application</button>
+        <button type="button" data-wizard-jump="installation">Installation</button>
+        <button type="button" data-wizard-jump="parameters">Parameters</button>
+        <button type="button" data-wizard-jump="results">Recommendation</button>
+      </div>
+
+      <form id="selectorForm" class="selector-state-form" aria-hidden="true">
+        <input type="radio" name="startPoint" value="application" checked />
+        <input type="radio" name="startPoint" value="installation" />
+        <input type="radio" name="startPoint" value="parameters" />
+        <input type="radio" name="startPoint" value="knownModel" />
+        <select id="selectorApplication"><option value="electronics">Electronics / PCB traceability</option><option value="packaging">Packaging / food / printed code</option><option value="automotive">Automotive parts traceability</option><option value="new-energy">New energy / battery materials</option><option value="semiconductor">Semiconductor / small code</option><option value="warehouse">Warehouse / inspection / manual scan</option><option value="general">General industrial reading</option></select>
+        <select id="selectorInstallation"><option value="fixed">Fixed machine-mounted reader</option><option value="compact">Compact / limited space reader</option><option value="handheld">Handheld reader</option><option value="mobile">PDA / software decoding</option><option value="unknown">Not sure yet</option></select>
+        <select id="selectorKnownModel"><option value="">No target model</option><option value="RS60">RS60 Series</option><option value="RS80">RS80 / RS80-M Series</option><option value="NRS100A">RS100-A / RS100-M Series</option><option value="RS210">RS210</option><option value="RS220">RS220</option><option value="RS250">RS250</option><option value="RS290">RS290</option><option value="H620">H620 Series</option><option value="H920">H920 Series</option></select>
+        <input id="selectorLineSpeed" type="number" value="" />
+        <input id="selectorQuantity" type="number" value="" />
+      </form>
+
+      <section class="wizard-panel wizard-intro is-active" data-wizard-panel="intro">
+        <div class="wizard-intro-copy">
+          <img class="wizard-logo" src="../assets/logo-dark-theme.svg" alt="SJI" />
+          <p class="eyebrow">Zhuhai Sanjie Intelligent Technology Co., Ltd.</p>
+          <h1>Guided Barcode Reader Selection</h1>
           <p>
-            Start from your application, installation method, or known code-reading parameters. The selector narrows down
-            suitable SJI reader families and prepares a clear inquiry summary for sales confirmation.
+            SJI helps overseas industrial buyers narrow down a suitable reader family from application, installation
+            method, and key code-reading parameters. Start with what you know; final purchase details can be confirmed
+            by SJI sales.
           </p>
-          <div class="tag-row">
-            <span>Application</span>
-            <span>Installation</span>
-            <span>Code Size</span>
-            <span>Working Distance</span>
-            <span>FOV</span>
-          </div>
-          <div class="detail-actions">
-            <a class="button primary" href="#selectorTool">Start Selection</a>
+          <div class="wizard-hero-actions">
+            <button class="button primary" type="button" data-wizard-next="application">Start Reader Selection</button>
             <a class="button secondary" href="./barcode-readers.html">View Product Lineup</a>
           </div>
+          <div class="wizard-trust-row">
+            <span>RS60 / RS200 / H620</span>
+            <span>398 public spec points</span>
+            <span>1-minute first recommendation</span>
+          </div>
         </div>
-        <div class="selector-hero-panel">
+        <div class="wizard-intro-visual">
           <img src="../assets/homepage-hero-products-web.png" alt="SJI barcode reader lineup" />
           <div class="selector-metric-strip">
             <p><span>Public specs</span><strong id="selectorSpecCount">Loading</strong></p>
@@ -100,161 +120,119 @@
         </div>
       </section>
 
-      <section class="detail-section selector-tool-section" id="selectorTool">
-        <div class="section-heading compact">
-          <p class="eyebrow">Product Selector</p>
-          <h2>Answer What You Know</h2>
-          <p>
-            You do not need every parameter. Fill in the known conditions first; uncertain items can stay blank and be
-            confirmed with sample code images during inquiry.
-          </p>
+      <section class="wizard-panel" data-wizard-panel="application">
+        <div class="wizard-step-heading">
+          <p class="eyebrow">Step 1 / 4</p>
+          <h2>Choose Your Application Scenario</h2>
+          <p>Pick the closest workflow. This helps the selector favor the right reader family before detailed parameters.</p>
         </div>
+        <div class="wizard-option-grid">
+          <button class="wizard-option-card is-selected" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="electronics">
+            <span>01</span><strong>Electronics / PCB</strong><small>PCB, labels, components, compact production stations.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="packaging">
+            <span>02</span><strong>Packaging / Food</strong><small>Cartons, printed codes, bottles, bags, and production lines.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="automotive">
+            <span>03</span><strong>Automotive Parts</strong><small>Traceability for metal, plastic, and assembled parts.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="new-energy">
+            <span>04</span><strong>New Energy</strong><small>Battery, module, and material identification workflows.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="semiconductor">
+            <span>05</span><strong>Semiconductor</strong><small>Small code, high-precision, and inspection-related reading.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="application" data-selector-target="selectorApplication" data-selector-value="warehouse">
+            <span>06</span><strong>Warehouse / Inspection</strong><small>Manual scanning, warehouse operation, and flexible support.</small>
+          </button>
+        </div>
+        <div class="wizard-nav-row">
+          <button class="button secondary" type="button" data-wizard-back="intro">Back</button>
+          <button class="button primary" type="button" data-wizard-next="installation">Next</button>
+        </div>
+      </section>
 
-        <div class="selector-layout">
-          <form class="selector-panel selector-form" id="selectorForm">
-            <fieldset class="selector-fieldset">
-              <legend>Start Point</legend>
-              <div class="selector-start-grid">
-                <label class="selector-start-card">
-                  <input type="radio" name="startPoint" value="application" checked />
-                  <span>Application</span>
-                  <small>Start from industry or workflow.</small>
-                </label>
-                <label class="selector-start-card">
-                  <input type="radio" name="startPoint" value="installation" />
-                  <span>Installation</span>
-                  <small>Fixed, compact, handheld, or software.</small>
-                </label>
-                <label class="selector-start-card">
-                  <input type="radio" name="startPoint" value="parameters" />
-                  <span>Parameters</span>
-                  <small>Use distance, FOV, and code size.</small>
-                </label>
-                <label class="selector-start-card">
-                  <input type="radio" name="startPoint" value="knownModel" />
-                  <span>Target Model</span>
-                  <small>Check a known product direction.</small>
-                </label>
-              </div>
-            </fieldset>
+      <section class="wizard-panel" data-wizard-panel="installation">
+        <div class="wizard-step-heading">
+          <p class="eyebrow">Step 2 / 4</p>
+          <h2>Select the Installation Method</h2>
+          <p>Choose how the reader will be used. Fixed readers can be calculated from the public spec data; other workflows are guided to sales confirmation.</p>
+        </div>
+        <div class="wizard-option-grid installation-grid">
+          <button class="wizard-option-card is-selected" type="button" data-start-value="installation" data-selector-target="selectorInstallation" data-selector-value="fixed">
+            <span>Fixed</span><strong>Machine-mounted reader</strong><small>Production line, equipment integration, traceability station.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="installation" data-selector-target="selectorInstallation" data-selector-value="compact">
+            <span>Compact</span><strong>Limited-space reader</strong><small>Small machine, narrow position, embedded installation.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="installation" data-selector-target="selectorInstallation" data-selector-value="handheld">
+            <span>Handheld</span><strong>Manual scanning</strong><small>Warehouse, inspection, workstation, and flexible scanning.</small>
+          </button>
+          <button class="wizard-option-card" type="button" data-start-value="installation" data-selector-target="selectorInstallation" data-selector-value="mobile">
+            <span>Mobile</span><strong>PDA / software decoding</strong><small>Mobile data collection or software-based image decoding.</small>
+          </button>
+        </div>
+        <div class="wizard-nav-row">
+          <button class="button secondary" type="button" data-wizard-back="application">Back</button>
+          <button class="button primary" type="button" data-wizard-next="parameters">Next</button>
+        </div>
+      </section>
 
+      <section class="wizard-panel" data-wizard-panel="parameters">
+        <div class="wizard-step-heading">
+          <p class="eyebrow">Step 3 / 4</p>
+          <h2>Enter the Key Reading Conditions</h2>
+          <p>Keep unknown fields blank. The selector can still prepare a recommendation and inquiry summary for SJI confirmation.</p>
+        </div>
+        <div class="wizard-parameter-layout">
+          <div class="wizard-parameter-card">
+            <h3>Code Information</h3>
             <div class="selector-form-grid">
-              <label>
-                <span>Application Scenario</span>
-                <select id="selectorApplication">
-                  <option value="electronics">Electronics / PCB traceability</option>
-                  <option value="packaging">Packaging / food / printed code</option>
-                  <option value="automotive">Automotive parts traceability</option>
-                  <option value="new-energy">New energy / battery materials</option>
-                  <option value="semiconductor">Semiconductor / small code</option>
-                  <option value="warehouse">Warehouse / inspection / manual scan</option>
-                  <option value="general">General industrial reading</option>
-                </select>
-              </label>
-              <label>
-                <span>Installation Method</span>
-                <select id="selectorInstallation">
-                  <option value="fixed">Fixed machine-mounted reader</option>
-                  <option value="compact">Compact / limited space reader</option>
-                  <option value="handheld">Handheld reader</option>
-                  <option value="mobile">PDA / software decoding</option>
-                  <option value="unknown">Not sure yet</option>
-                </select>
-              </label>
-              <label>
-                <span>Known Target Model</span>
-                <select id="selectorKnownModel">
-                  <option value="">No target model</option>
-                  <option value="RS60">RS60 Series</option>
-                  <option value="RS80">RS80 / RS80-M Series</option>
-                  <option value="NRS100A">RS100-A / RS100-M Series</option>
-                  <option value="RS210">RS210</option>
-                  <option value="RS220">RS220</option>
-                  <option value="RS250">RS250</option>
-                  <option value="RS290">RS290</option>
-                  <option value="H620">H620 Series</option>
-                  <option value="H920">H920 Series</option>
-                </select>
-              </label>
-              <label>
-                <span>Code Type</span>
-                <select id="selectorCodeType">
-                  <option value="QR">QR code</option>
-                  <option value="Data Matrix">Data Matrix</option>
-                  <option value="DPM">DPM / difficult 2D code</option>
-                  <option value="Code128">Code128 / 1D barcode</option>
-                  <option value="Code39">Code39 / 1D barcode</option>
-                  <option value="Mixed">Mixed 1D + 2D</option>
-                </select>
-              </label>
-              <label>
-                <span>2D Code Size mm</span>
-                <input id="selectorCodeSize" type="number" min="0" step="0.1" value="5" />
-              </label>
-              <label>
-                <span>2D Module Count</span>
-                <input id="selectorModuleCount" type="number" min="1" step="1" value="25" />
-              </label>
-              <label>
-                <span>1D Narrow Bar mm</span>
-                <input id="selectorNarrowBar" type="number" min="0" step="0.01" placeholder="Optional" />
-              </label>
-              <label>
-                <span>Working Distance mm</span>
-                <input id="selectorDistance" type="number" min="0" step="1" value="100" />
-              </label>
-              <label>
-                <span>Distance Tolerance mm</span>
-                <input id="selectorTolerance" type="number" min="1" step="1" value="50" />
-              </label>
-              <label>
-                <span>Required FOV X mm</span>
-                <input id="selectorFovX" type="number" min="0" step="1" placeholder="Optional" />
-              </label>
-              <label>
-                <span>Required FOV Y mm</span>
-                <input id="selectorFovY" type="number" min="0" step="1" placeholder="Optional" />
-              </label>
-              <label>
-                <span>Line Speed m/min</span>
-                <input id="selectorLineSpeed" type="number" min="0" step="1" placeholder="Optional" />
-              </label>
-              <label>
-                <span>Interface Need</span>
-                <select id="selectorInterface">
-                  <option value="Ethernet">Ethernet / TCP</option>
-                  <option value="Serial">Serial / RS232</option>
-                  <option value="USB">USB</option>
-                  <option value="Wireless">Wireless</option>
-                  <option value="Unknown">Not sure</option>
-                </select>
-              </label>
-              <label>
-                <span>Expected Quantity</span>
-                <input id="selectorQuantity" type="number" min="0" step="1" placeholder="Optional" />
-              </label>
-              <label class="selector-check full">
-                <input id="selectorUseResolution" type="checkbox" checked />
-                <span>Use code size to check reading resolution</span>
-              </label>
+              <label><span>Code Type</span><select id="selectorCodeType"><option value="QR">QR code</option><option value="Data Matrix">Data Matrix</option><option value="DPM">DPM / difficult 2D code</option><option value="Code128">Code128 / 1D barcode</option><option value="Code39">Code39 / 1D barcode</option><option value="Mixed">Mixed 1D + 2D</option></select></label>
+              <label><span>2D Code Size mm</span><input id="selectorCodeSize" type="number" min="0" step="0.1" value="5" /></label>
+              <label><span>2D Module Count</span><input id="selectorModuleCount" type="number" min="1" step="1" value="25" /></label>
+              <label><span>1D Narrow Bar mm</span><input id="selectorNarrowBar" type="number" min="0" step="0.01" placeholder="Optional" /></label>
+              <label class="selector-check full"><input id="selectorUseResolution" type="checkbox" checked /><span>Use code size to check reading resolution</span></label>
             </div>
+          </div>
+          <div class="wizard-parameter-card">
+            <h3>Installation & Purchase</h3>
+            <div class="selector-form-grid">
+              <label><span>Working Distance mm</span><input id="selectorDistance" type="number" min="0" step="1" value="100" /></label>
+              <label><span>Distance Tolerance mm</span><input id="selectorTolerance" type="number" min="1" step="1" value="50" /></label>
+              <label><span>Required FOV X mm</span><input id="selectorFovX" type="number" min="0" step="1" placeholder="Optional" /></label>
+              <label><span>Required FOV Y mm</span><input id="selectorFovY" type="number" min="0" step="1" placeholder="Optional" /></label>
+              <label><span>Interface Need</span><select id="selectorInterface"><option value="Ethernet">Ethernet / TCP</option><option value="Serial">Serial / RS232</option><option value="USB">USB</option><option value="Wireless">Wireless</option><option value="Unknown">Not sure</option></select></label>
+              <label><span>Known Target Model</span><select id="selectorKnownModelVisible"><option value="">No target model</option><option value="RS60">RS60 Series</option><option value="RS80">RS80 / RS80-M Series</option><option value="NRS100A">RS100-A / RS100-M Series</option><option value="RS210">RS210</option><option value="RS220">RS220</option><option value="RS250">RS250</option><option value="RS290">RS290</option><option value="H620">H620 Series</option><option value="H920">H920 Series</option></select></label>
+            </div>
+          </div>
+        </div>
+        <div class="wizard-nav-row">
+          <button class="button secondary" type="button" data-wizard-back="installation">Back</button>
+          <button class="button primary" type="button" id="selectorCalculate">Show Recommendation</button>
+        </div>
+      </section>
 
-            <div class="selector-actions">
-              <button class="button primary" type="button" id="selectorCalculate">Calculate Recommendation</button>
-              <button class="button secondary" type="button" id="selectorReset">Reset</button>
-            </div>
-          </form>
-
-          <aside class="selector-panel selector-results-panel" aria-live="polite">
-            <div class="selector-result-head">
-              <div>
-                <p class="eyebrow">Recommendation</p>
-                <h2 id="selectorResultTitle">Ready for selection</h2>
-              </div>
-              <span class="selector-status" id="selectorStatus">Waiting</span>
-            </div>
+      <section class="wizard-panel wizard-results" data-wizard-panel="results">
+        <div class="wizard-step-heading">
+          <p class="eyebrow">Step 4 / 4</p>
+          <h2 id="selectorResultTitle">Ready for selection</h2>
+          <p>Use this result as a first purchase direction. SJI will confirm the final model, lens, cable, light, and documents before quotation.</p>
+          <span class="selector-status" id="selectorStatus">Waiting</span>
+        </div>
+        <div class="wizard-results-layout">
+          <div>
             <div class="selector-insights" id="selectorInsights"></div>
             <div class="selector-results" id="selectorResults"></div>
+          </div>
+          <aside class="wizard-accessory-panel">
+            <h3>Accessories to Confirm</h3>
+            <ul>
+              <li>Mounting bracket and installation space</li>
+              <li>Cable, connector, and communication interface</li>
+              <li>Light color and illumination configuration</li>
+              <li>Sample code images and application photos</li>
+            </ul>
             <div class="selector-summary-block">
               <h3>Inquiry Summary</h3>
               <textarea id="selectorSummary" rows="9" readonly></textarea>
@@ -265,18 +243,18 @@
             </div>
           </aside>
         </div>
-      </section>
-
-      <section class="detail-section">
-        <div class="inquiry-cta">
-          <div>
-            <h2>Need final confirmation?</h2>
-            <p>
-              The selector provides a first recommendation for standard products. Please send sample code images,
-              installation photos, and quantity so SJI can confirm the final model before quotation.
-            </p>
+        <div class="wizard-related-strip">
+          <h3>Other Products You May Need</h3>
+          <div class="wizard-related-track">
+            <a href="./rs60.html"><img src="../assets/rs60-web.png" alt="RS60" /><strong>RS60 Series</strong><span>Standard fixed reader</span></a>
+            <a href="./rs200.html"><img src="../assets/rs200-web.png" alt="RS200" /><strong>RS200 Family</strong><span>High-performance traceability</span></a>
+            <a href="./h620.html"><img src="../assets/h620-web.png" alt="H620" /><strong>H620 Series</strong><span>Handheld scanning</span></a>
+            <a href="./lenses.html"><img src="../assets/lens-family.jpg" alt="Machine vision lenses" /><strong>Machine Vision Lenses</strong><span>Imaging support</span></a>
           </div>
-          <a class="button primary" href="../index.html#contact">Contact Sales</a>
+        </div>
+        <div class="wizard-nav-row">
+          <button class="button secondary" type="button" data-wizard-back="parameters">Back</button>
+          <button class="button primary" type="button" data-wizard-next="application">Start Again</button>
         </div>
       </section>
     </main>

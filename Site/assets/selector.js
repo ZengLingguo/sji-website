@@ -426,11 +426,60 @@
     $("selectorMail").href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("SJI barcode reader selection inquiry")}&body=${encodeURIComponent(lastSummary)}`;
   }
 
+  function showWizardPanel(panelName) {
+    document.querySelectorAll("[data-wizard-panel]").forEach((panel) => {
+      panel.classList.toggle("is-active", panel.dataset.wizardPanel === panelName);
+    });
+    document.querySelectorAll("[data-wizard-jump]").forEach((button) => {
+      button.classList.toggle("is-active", button.dataset.wizardJump === panelName);
+    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function setStartPoint(value) {
+    const input = document.querySelector(`input[name="startPoint"][value="${value}"]`);
+    if (input) input.checked = true;
+  }
+
+  function syncOptionCard(card) {
+    const target = card.dataset.selectorTarget;
+    const value = card.dataset.selectorValue;
+    if (target && typeof value !== "undefined" && $(target)) {
+      $(target).value = value;
+      $(target).dispatchEvent(new Event("change", { bubbles: true }));
+    }
+    if (card.dataset.startValue) setStartPoint(card.dataset.startValue);
+    document.querySelectorAll(`[data-selector-target="${target}"]`).forEach((item) => {
+      item.classList.toggle("is-selected", item === card);
+    });
+    calculate();
+  }
+
+  function syncVisibleModel() {
+    const visible = $("selectorKnownModelVisible");
+    const hidden = $("selectorKnownModel");
+    if (!visible || !hidden) return;
+    hidden.value = visible.value;
+  }
+
+  function syncWizardSelections() {
+    document.querySelectorAll("[data-selector-target]").forEach((card) => {
+      const target = card.dataset.selectorTarget;
+      card.classList.toggle("is-selected", $(target)?.value === card.dataset.selectorValue);
+    });
+    if ($("selectorKnownModelVisible") && $("selectorKnownModel")) {
+      $("selectorKnownModelVisible").value = $("selectorKnownModel").value;
+    }
+  }
+
   function calculate(options = {}) {
+    syncVisibleModel();
     const state = getState();
     let results = dedupeBySeries(filterCandidates(state));
     if (!results.length) results = fallbackRecommendations(state);
     renderResults(results, state);
+    syncWizardSelections();
+    if (options.showResults) showWizardPanel("results");
     if (options.scrollToResults) {
       window.setTimeout(() => {
         document.querySelector(".selector-results-panel")?.scrollIntoView({
@@ -458,7 +507,9 @@
     $("selectorQuantity").value = "";
     $("selectorUseResolution").checked = true;
     document.querySelector('input[name="startPoint"][value="application"]').checked = true;
+    if ($("selectorKnownModelVisible")) $("selectorKnownModelVisible").value = "";
     calculate();
+    showWizardPanel("application");
   }
 
   async function copySummary() {
@@ -475,11 +526,31 @@
   }
 
   function bindEvents() {
-    $("selectorCalculate")?.addEventListener("click", () => calculate({ scrollToResults: true }));
+    $("selectorCalculate")?.addEventListener("click", () => calculate({ showResults: true }));
     $("selectorReset")?.addEventListener("click", resetForm);
     $("selectorCopy")?.addEventListener("click", copySummary);
-    document.querySelectorAll("#selectorForm select, #selectorForm input").forEach((field) => {
+    document.querySelectorAll("select, input").forEach((field) => {
       field.addEventListener("change", calculate);
+    });
+    document.querySelectorAll("[data-wizard-next]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = button.dataset.wizardNext;
+        if (target === "results") calculate({ showResults: true });
+        else showWizardPanel(target);
+      });
+    });
+    document.querySelectorAll("[data-wizard-back]").forEach((button) => {
+      button.addEventListener("click", () => showWizardPanel(button.dataset.wizardBack));
+    });
+    document.querySelectorAll("[data-wizard-jump]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const target = button.dataset.wizardJump;
+        if (target === "results") calculate({ showResults: true });
+        else showWizardPanel(target);
+      });
+    });
+    document.querySelectorAll("[data-selector-target]").forEach((card) => {
+      card.addEventListener("click", () => syncOptionCard(card));
     });
   }
 

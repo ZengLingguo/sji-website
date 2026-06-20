@@ -426,11 +426,19 @@
     $("selectorMail").href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent("SJI barcode reader selection inquiry")}&body=${encodeURIComponent(lastSummary)}`;
   }
 
-  function calculate() {
+  function calculate(options = {}) {
     const state = getState();
     let results = dedupeBySeries(filterCandidates(state));
     if (!results.length) results = fallbackRecommendations(state);
     renderResults(results, state);
+    if (options.scrollToResults) {
+      window.setTimeout(() => {
+        document.querySelector(".selector-results-panel")?.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      }, 80);
+    }
   }
 
   function resetForm() {
@@ -467,7 +475,7 @@
   }
 
   function bindEvents() {
-    $("selectorCalculate")?.addEventListener("click", calculate);
+    $("selectorCalculate")?.addEventListener("click", () => calculate({ scrollToResults: true }));
     $("selectorReset")?.addEventListener("click", resetForm);
     $("selectorCopy")?.addEventListener("click", copySummary);
     document.querySelectorAll("#selectorForm select, #selectorForm input").forEach((field) => {

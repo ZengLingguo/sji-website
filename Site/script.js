@@ -1,6 +1,7 @@
 const translations = {
   en: {
     "nav.home": "Home",
+    "nav.selector": "Product Selector",
     "nav.readers": "Barcode Readers",
     "nav.lenses": "Machine Vision Lenses",
     "nav.videos": "Videos",
@@ -8,6 +9,7 @@ const translations = {
     "nav.about": "About SJI",
     "nav.contact": "Contact",
     "btn.quote": "Get a Quote",
+    "btn.startSelector": "Start Product Selector",
     "btn.viewReaders": "View Barcode Readers",
     "btn.contactSales": "Contact Sales",
     "btn.lensSelection": "Request Lens Selection",
@@ -109,6 +111,7 @@ const translations = {
   },
   "zh-CN": {
     "nav.home": "首页",
+    "nav.selector": "产品选型",
     "nav.readers": "读码器",
     "nav.lenses": "机器视觉镜头",
     "nav.videos": "视频",
@@ -116,6 +119,7 @@ const translations = {
     "nav.about": "关于 SJI",
     "nav.contact": "联系我们",
     "btn.quote": "获取报价",
+    "btn.startSelector": "开始产品选型",
     "btn.viewReaders": "查看读码器",
     "btn.contactSales": "联系销售",
     "btn.lensSelection": "请求镜头选型",
@@ -205,6 +209,7 @@ const translations = {
   },
   "zh-Hant": {
     "nav.home": "首頁",
+    "nav.selector": "產品選型",
     "nav.readers": "讀碼器",
     "nav.lenses": "機器視覺鏡頭",
     "nav.videos": "影片",
@@ -212,6 +217,7 @@ const translations = {
     "nav.about": "關於 SJI",
     "nav.contact": "聯絡我們",
     "btn.quote": "取得報價",
+    "btn.startSelector": "開始產品選型",
     "btn.viewReaders": "查看讀碼器",
     "btn.contactSales": "聯絡銷售",
     "btn.lensSelection": "請求鏡頭選型",
@@ -236,6 +242,7 @@ const translations = {
   },
   ja: {
     "nav.home": "ホーム",
+    "nav.selector": "製品セレクター",
     "nav.readers": "バーコードリーダー",
     "nav.lenses": "マシンビジョンレンズ",
     "nav.videos": "動画",
@@ -245,6 +252,7 @@ const translations = {
   },
   ko: {
     "nav.home": "홈",
+    "nav.selector": "제품 선택",
     "nav.readers": "바코드 리더",
     "nav.lenses": "머신비전 렌즈",
     "nav.videos": "동영상",
@@ -254,6 +262,7 @@ const translations = {
   },
   th: {
     "nav.home": "หน้าแรก",
+    "nav.selector": "ตัวช่วยเลือกสินค้า",
     "nav.readers": "เครื่องอ่านบาร์โค้ด",
     "nav.lenses": "เลนส์แมชชีนวิชัน",
     "nav.videos": "วิดีโอ",
@@ -263,6 +272,7 @@ const translations = {
   },
   vi: {
     "nav.home": "Trang chủ",
+    "nav.selector": "Chọn sản phẩm",
     "nav.readers": "Đầu đọc mã vạch",
     "nav.lenses": "Ống kính thị giác máy",
     "nav.videos": "Video",
@@ -275,6 +285,7 @@ const translations = {
 const extendedTranslations = {
   "zh-Hant": {
     "btn.quote": "取得報價",
+    "btn.startSelector": "開始產品選型",
     "btn.viewReaders": "查看讀碼器",
     "btn.contactSales": "聯絡銷售",
     "btn.lensSelection": "請求鏡頭選型",
@@ -345,6 +356,7 @@ const extendedTranslations = {
   },
   ja: {
     "btn.quote": "見積依頼",
+    "btn.startSelector": "製品セレクターを開始",
     "btn.viewReaders": "バーコードリーダーを見る",
     "btn.contactSales": "営業へ問い合わせ",
     "btn.lensSelection": "レンズ選定を依頼",
@@ -433,6 +445,7 @@ const extendedTranslations = {
 
 extendedTranslations.ko = {
   "btn.quote": "견적 요청",
+  "btn.startSelector": "제품 선택 시작",
   "btn.viewReaders": "바코드 리더 보기",
   "btn.contactSales": "영업 문의",
   "btn.lensSelection": "렌즈 선정 요청",
@@ -488,6 +501,7 @@ extendedTranslations.ko = {
 };
 extendedTranslations.th = {
   "btn.quote": "ขอใบเสนอราคา",
+  "btn.startSelector": "เริ่มเลือกสินค้า",
   "btn.viewReaders": "ดูเครื่องอ่านบาร์โค้ด",
   "btn.contactSales": "ติดต่อฝ่ายขาย",
   "btn.lensSelection": "ขอเลือกเลนส์",
@@ -531,6 +545,7 @@ extendedTranslations.th = {
 };
 extendedTranslations.vi = {
   "btn.quote": "Nhận báo giá",
+  "btn.startSelector": "Bắt đầu chọn sản phẩm",
   "btn.viewReaders": "Xem đầu đọc mã vạch",
   "btn.contactSales": "Liên hệ kinh doanh",
   "btn.lensSelection": "Yêu cầu chọn ống kính",

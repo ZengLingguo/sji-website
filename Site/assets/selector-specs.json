@@ -1,0 +1,3589 @@
+{
+    "generatedAt":  "2026-06-20",
+    "source":  "SJI public selector dataset derived from internal specification table",
+    "count":  398,
+    "specs":  [
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  20,
+                      "fovXmm":  22,
+                      "fovYmm":  16,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  30,
+                      "fovXmm":  30,
+                      "fovYmm":  22,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  40,
+                      "fovXmm":  38,
+                      "fovYmm":  27,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  50,
+                      "fovXmm":  47,
+                      "fovYmm":  35,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  3.2
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  60,
+                      "fovXmm":  52,
+                      "fovYmm":  39,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.5
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  70,
+                      "fovXmm":  60,
+                      "fovYmm":  44,
+                      "resolution1DMil":  2.4,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  80,
+                      "fovXmm":  67,
+                      "fovYmm":  50,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.5
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  90,
+                      "fovXmm":  75,
+                      "fovYmm":  55,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  100,
+                      "fovXmm":  81,
+                      "fovYmm":  61,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  5.5
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  110,
+                      "fovXmm":  90,
+                      "fovYmm":  66,
+                      "resolution1DMil":  3.6,
+                      "resolution2DMil":  6.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  120,
+                      "fovXmm":  95,
+                      "fovYmm":  71,
+                      "resolution1DMil":  3.8,
+                      "resolution2DMil":  6.4
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  130,
+                      "fovXmm":  98,
+                      "fovYmm":  74,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  6.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  140,
+                      "fovXmm":  105,
+                      "fovYmm":  80,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  150,
+                      "fovXmm":  112,
+                      "fovYmm":  85,
+                      "resolution1DMil":  4.5,
+                      "resolution2DMil":  7.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  160,
+                      "fovXmm":  119,
+                      "fovYmm":  90,
+                      "resolution1DMil":  4.8,
+                      "resolution2DMil":  8.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  170,
+                      "fovXmm":  127,
+                      "fovYmm":  95,
+                      "resolution1DMil":  5.1,
+                      "resolution2DMil":  8.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  180,
+                      "fovXmm":  131,
+                      "fovYmm":  100,
+                      "resolution1DMil":  5.2,
+                      "resolution2DMil":  8.9
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  190,
+                      "fovXmm":  139,
+                      "fovYmm":  106,
+                      "resolution1DMil":  5.6,
+                      "resolution2DMil":  9.4
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F5",
+                      "distanceMm":  200,
+                      "fovXmm":  146,
+                      "fovYmm":  110,
+                      "resolution1DMil":  5.8,
+                      "resolution2DMil":  9.9
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  40,
+                      "fovXmm":  12,
+                      "fovYmm":  9,
+                      "resolution1DMil":  0.6,
+                      "resolution2DMil":  0.8
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  50,
+                      "fovXmm":  15,
+                      "fovYmm":  11,
+                      "resolution1DMil":  0.7,
+                      "resolution2DMil":  1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  60,
+                      "fovXmm":  18,
+                      "fovYmm":  14,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  1.2
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  70,
+                      "fovXmm":  21,
+                      "fovYmm":  16,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.4
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  80,
+                      "fovXmm":  24,
+                      "fovYmm":  18,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  1.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  90,
+                      "fovXmm":  32,
+                      "fovYmm":  24,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.2
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  100,
+                      "fovXmm":  35,
+                      "fovYmm":  26,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  110,
+                      "fovXmm":  38,
+                      "fovYmm":  29,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  120,
+                      "fovXmm":  42,
+                      "fovYmm":  32,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  2.8
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  130,
+                      "fovXmm":  46,
+                      "fovYmm":  34,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  3.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  140,
+                      "fovXmm":  49,
+                      "fovYmm":  37,
+                      "resolution1DMil":  2.4,
+                      "resolution2DMil":  3.3
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  150,
+                      "fovXmm":  53,
+                      "fovYmm":  39,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  160,
+                      "fovXmm":  56,
+                      "fovYmm":  42,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  3.8
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  170,
+                      "fovXmm":  59,
+                      "fovYmm":  44,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  4
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  180,
+                      "fovXmm":  61,
+                      "fovYmm":  47,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  190,
+                      "fovXmm":  69,
+                      "fovYmm":  52,
+                      "resolution1DMil":  3.4,
+                      "resolution2DMil":  4.7
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  200,
+                      "fovXmm":  73,
+                      "fovYmm":  55,
+                      "resolution1DMil":  3.6,
+                      "resolution2DMil":  4.9
+                  },
+                  {
+                      "series":  "RS60",
+                      "lens":  "F10",
+                      "distanceMm":  210,
+                      "fovXmm":  76,
+                      "fovYmm":  57,
+                      "resolution1DMil":  3.7,
+                      "resolution2DMil":  5.1
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  30,
+                      "fovXmm":  31,
+                      "fovYmm":  23.3,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  2.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  50,
+                      "fovXmm":  42,
+                      "fovYmm":  31,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  70,
+                      "fovXmm":  53,
+                      "fovYmm":  40,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  4.6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  90,
+                      "fovXmm":  70,
+                      "fovYmm":  52,
+                      "resolution1DMil":  3.4,
+                      "resolution2DMil":  6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  120,
+                      "fovXmm":  85,
+                      "fovYmm":  63,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.3
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  150,
+                      "fovXmm":  103,
+                      "fovYmm":  77,
+                      "resolution1DMil":  5.1,
+                      "resolution2DMil":  8.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  180,
+                      "fovXmm":  130,
+                      "fovYmm":  98,
+                      "resolution1DMil":  6.4,
+                      "resolution2DMil":  11.2
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  210,
+                      "fovXmm":  140,
+                      "fovYmm":  107,
+                      "resolution1DMil":  6.9,
+                      "resolution2DMil":  12.1
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  240,
+                      "fovXmm":  161,
+                      "fovYmm":  121,
+                      "resolution1DMil":  7.9,
+                      "resolution2DMil":  13.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  270,
+                      "fovXmm":  182,
+                      "fovYmm":  136,
+                      "resolution1DMil":  9,
+                      "resolution2DMil":  15.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  300,
+                      "fovXmm":  196,
+                      "fovYmm":  147,
+                      "resolution1DMil":  9.6,
+                      "resolution2DMil":  16.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  350,
+                      "fovXmm":  225,
+                      "fovYmm":  170,
+                      "resolution1DMil":  11.1,
+                      "resolution2DMil":  19.4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  400,
+                      "fovXmm":  255,
+                      "fovYmm":  192,
+                      "resolution1DMil":  12.5,
+                      "resolution2DMil":  22
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  450,
+                      "fovXmm":  289,
+                      "fovYmm":  217,
+                      "resolution1DMil":  14.2,
+                      "resolution2DMil":  24.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "6mm",
+                      "distanceMm":  500,
+                      "fovXmm":  317,
+                      "fovYmm":  238,
+                      "resolution1DMil":  15.6,
+                      "resolution2DMil":  27.3
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  30,
+                      "fovXmm":  24,
+                      "fovYmm":  17,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  50,
+                      "fovXmm":  30,
+                      "fovYmm":  23,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  70,
+                      "fovXmm":  40,
+                      "fovYmm":  29,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  90,
+                      "fovXmm":  51,
+                      "fovYmm":  36,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  4.4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  61,
+                      "fovYmm":  45,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.3
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  150,
+                      "fovXmm":  77,
+                      "fovYmm":  56,
+                      "resolution1DMil":  3.8,
+                      "resolution2DMil":  6.6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  90,
+                      "fovYmm":  67,
+                      "resolution1DMil":  4.4,
+                      "resolution2DMil":  7.8
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  210,
+                      "fovXmm":  105,
+                      "fovYmm":  68,
+                      "resolution1DMil":  5.2,
+                      "resolution2DMil":  9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  240,
+                      "fovXmm":  113,
+                      "fovYmm":  85,
+                      "resolution1DMil":  5.6,
+                      "resolution2DMil":  9.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  270,
+                      "fovXmm":  124,
+                      "fovYmm":  95,
+                      "resolution1DMil":  6.1,
+                      "resolution2DMil":  10.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  138,
+                      "fovYmm":  104,
+                      "resolution1DMil":  6.8,
+                      "resolution2DMil":  11.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  162,
+                      "fovYmm":  123,
+                      "resolution1DMil":  8,
+                      "resolution2DMil":  14
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  185,
+                      "fovYmm":  140,
+                      "resolution1DMil":  9.1,
+                      "resolution2DMil":  15.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  210,
+                      "fovYmm":  156,
+                      "resolution1DMil":  10.3,
+                      "resolution2DMil":  18.1
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  230,
+                      "fovYmm":  175,
+                      "resolution1DMil":  11.3,
+                      "resolution2DMil":  19.8
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "12mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  450,
+                      "fovYmm":  330,
+                      "resolution1DMil":  22.1,
+                      "resolution2DMil":  38.8
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  22.5,
+                      "fovYmm":  17,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  1.9
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  27.5,
+                      "fovYmm":  20,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  32.5,
+                      "fovYmm":  24,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.8
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  37.5,
+                      "fovYmm":  28,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.2
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  42.5,
+                      "fovYmm":  32,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  46.5,
+                      "fovYmm":  35,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  54.5,
+                      "fovYmm":  41,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.7
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  61.5,
+                      "fovYmm":  46,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.3
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  70,
+                      "fovYmm":  53,
+                      "resolution1DMil":  3.4,
+                      "resolution2DMil":  6
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  84,
+                      "fovYmm":  63,
+                      "resolution1DMil":  4.1,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  96,
+                      "fovYmm":  72,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  8.3
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  106,
+                      "fovYmm":  80,
+                      "resolution1DMil":  5.2,
+                      "resolution2DMil":  9.1
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  118,
+                      "fovYmm":  89,
+                      "resolution1DMil":  5.8,
+                      "resolution2DMil":  10.2
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  144,
+                      "fovYmm":  108,
+                      "resolution1DMil":  7.1,
+                      "resolution2DMil":  12.4
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  180,
+                      "fovYmm":  135,
+                      "resolution1DMil":  8.9,
+                      "resolution2DMil":  15.5
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  238,
+                      "fovYmm":  179,
+                      "resolution1DMil":  11.7,
+                      "resolution2DMil":  20.5
+                  },
+                  {
+                      "series":  "RS80",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  361,
+                      "fovYmm":  271,
+                      "resolution1DMil":  17.8,
+                      "resolution2DMil":  31.1
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  30,
+                      "fovXmm":  27,
+                      "fovYmm":  20,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  50,
+                      "fovXmm":  36,
+                      "fovYmm":  28,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  70,
+                      "fovXmm":  49,
+                      "fovYmm":  37,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.3
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  90,
+                      "fovXmm":  60,
+                      "fovYmm":  45,
+                      "resolution1DMil":  2.2,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  120,
+                      "fovXmm":  76,
+                      "fovYmm":  57,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  5.1
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  150,
+                      "fovXmm":  94,
+                      "fovYmm":  71,
+                      "resolution1DMil":  3.5,
+                      "resolution2DMil":  6.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  180,
+                      "fovXmm":  110,
+                      "fovYmm":  83,
+                      "resolution1DMil":  4.1,
+                      "resolution2DMil":  7.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  210,
+                      "fovXmm":  127,
+                      "fovYmm":  95,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  8.6
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  240,
+                      "fovXmm":  143,
+                      "fovYmm":  107,
+                      "resolution1DMil":  5.3,
+                      "resolution2DMil":  9.7
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  270,
+                      "fovXmm":  161,
+                      "fovYmm":  121,
+                      "resolution1DMil":  5.9,
+                      "resolution2DMil":  10.9
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  300,
+                      "fovXmm":  178,
+                      "fovYmm":  134,
+                      "resolution1DMil":  6.6,
+                      "resolution2DMil":  12
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  350,
+                      "fovXmm":  204,
+                      "fovYmm":  151,
+                      "resolution1DMil":  7.5,
+                      "resolution2DMil":  13.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  400,
+                      "fovXmm":  230,
+                      "fovYmm":  175,
+                      "resolution1DMil":  8.5,
+                      "resolution2DMil":  15.6
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  450,
+                      "fovXmm":  260,
+                      "fovYmm":  195,
+                      "resolution1DMil":  9.6,
+                      "resolution2DMil":  17.6
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "6mm",
+                      "distanceMm":  500,
+                      "fovXmm":  287,
+                      "fovYmm":  215,
+                      "resolution1DMil":  10.6,
+                      "resolution2DMil":  19.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  60,
+                      "fovXmm":  19,
+                      "fovYmm":  14,
+                      "resolution1DMil":  0.7,
+                      "resolution2DMil":  1.3
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  70,
+                      "fovXmm":  21,
+                      "fovYmm":  16,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  90,
+                      "fovXmm":  27,
+                      "fovYmm":  20,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  36,
+                      "fovYmm":  27,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  150,
+                      "fovXmm":  45,
+                      "fovYmm":  33,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  53,
+                      "fovYmm":  40,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  210,
+                      "fovXmm":  62,
+                      "fovYmm":  46,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.2
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  240,
+                      "fovXmm":  71,
+                      "fovYmm":  53,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  4.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  270,
+                      "fovXmm":  79,
+                      "fovYmm":  59,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  5.3
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  87,
+                      "fovYmm":  65,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  5.9
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  101,
+                      "fovYmm":  76,
+                      "resolution1DMil":  3.7,
+                      "resolution2DMil":  6.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  115,
+                      "fovYmm":  87,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  129,
+                      "fovYmm":  97,
+                      "resolution1DMil":  4.8,
+                      "resolution2DMil":  8.7
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  144,
+                      "fovYmm":  108,
+                      "resolution1DMil":  5.3,
+                      "resolution2DMil":  9.7
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "12mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  283,
+                      "fovYmm":  215,
+                      "resolution1DMil":  10.4,
+                      "resolution2DMil":  19.1
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  20,
+                      "fovYmm":  15,
+                      "resolution1DMil":  0.7,
+                      "resolution2DMil":  1.4
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  25,
+                      "fovYmm":  19,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  1.7
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  29,
+                      "fovYmm":  21,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  33,
+                      "fovYmm":  25,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.2
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  37,
+                      "fovYmm":  28,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  42,
+                      "fovYmm":  31,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  48,
+                      "fovYmm":  36,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.2
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  55,
+                      "fovYmm":  41,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  3.7
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  63,
+                      "fovYmm":  47,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.3
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  74,
+                      "fovYmm":  56,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  5
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  85,
+                      "fovYmm":  64,
+                      "resolution1DMil":  3.1,
+                      "resolution2DMil":  5.8
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  96,
+                      "fovYmm":  72,
+                      "resolution1DMil":  3.5,
+                      "resolution2DMil":  6.5
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  106,
+                      "fovYmm":  80,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  127,
+                      "fovYmm":  95,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  8.6
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  147,
+                      "fovYmm":  110,
+                      "resolution1DMil":  5.4,
+                      "resolution2DMil":  9.9
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  208,
+                      "fovYmm":  157,
+                      "resolution1DMil":  7.7,
+                      "resolution2DMil":  14.1
+                  },
+                  {
+                      "series":  "NRS100A",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  316,
+                      "fovYmm":  235,
+                      "resolution1DMil":  11.7,
+                      "resolution2DMil":  21.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  50,
+                      "fovXmm":  36,
+                      "fovYmm":  27,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  70,
+                      "fovXmm":  46,
+                      "fovYmm":  35,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  90,
+                      "fovXmm":  58,
+                      "fovYmm":  44,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  120,
+                      "fovXmm":  78,
+                      "fovYmm":  58,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  5.3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  150,
+                      "fovXmm":  96,
+                      "fovYmm":  72,
+                      "resolution1DMil":  3.5,
+                      "resolution2DMil":  6.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  180,
+                      "fovXmm":  116,
+                      "fovYmm":  87,
+                      "resolution1DMil":  4.3,
+                      "resolution2DMil":  7.8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  210,
+                      "fovXmm":  130,
+                      "fovYmm":  96,
+                      "resolution1DMil":  4.8,
+                      "resolution2DMil":  8.8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  240,
+                      "fovXmm":  149,
+                      "fovYmm":  110,
+                      "resolution1DMil":  5.5,
+                      "resolution2DMil":  10.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  270,
+                      "fovXmm":  165,
+                      "fovYmm":  125,
+                      "resolution1DMil":  6.1,
+                      "resolution2DMil":  11.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  300,
+                      "fovXmm":  187,
+                      "fovYmm":  140,
+                      "resolution1DMil":  6.9,
+                      "resolution2DMil":  12.7
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  350,
+                      "fovXmm":  220,
+                      "fovYmm":  163,
+                      "resolution1DMil":  8.1,
+                      "resolution2DMil":  14.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  400,
+                      "fovXmm":  250,
+                      "fovYmm":  187,
+                      "resolution1DMil":  9.2,
+                      "resolution2DMil":  16.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  450,
+                      "fovXmm":  280,
+                      "fovYmm":  210,
+                      "resolution1DMil":  10.3,
+                      "resolution2DMil":  18.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "8mm",
+                      "distanceMm":  500,
+                      "fovXmm":  310,
+                      "fovYmm":  233,
+                      "resolution1DMil":  11.4,
+                      "resolution2DMil":  21
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  70,
+                      "fovXmm":  31,
+                      "fovYmm":  22,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  90,
+                      "fovXmm":  39,
+                      "fovYmm":  29,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  50,
+                      "fovYmm":  39,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  150,
+                      "fovXmm":  62,
+                      "fovYmm":  46,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  76,
+                      "fovYmm":  57,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  5.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  210,
+                      "fovXmm":  90,
+                      "fovYmm":  69,
+                      "resolution1DMil":  3.3,
+                      "resolution2DMil":  6.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  240,
+                      "fovXmm":  101,
+                      "fovYmm":  77,
+                      "resolution1DMil":  3.7,
+                      "resolution2DMil":  6.8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  270,
+                      "fovXmm":  114,
+                      "fovYmm":  87,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.7
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  125,
+                      "fovYmm":  95,
+                      "resolution1DMil":  4.6,
+                      "resolution2DMil":  8.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  150,
+                      "fovYmm":  111,
+                      "resolution1DMil":  5.5,
+                      "resolution2DMil":  10.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  172,
+                      "fovYmm":  130,
+                      "resolution1DMil":  6.3,
+                      "resolution2DMil":  11.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  193,
+                      "fovYmm":  143,
+                      "resolution1DMil":  7.1,
+                      "resolution2DMil":  13.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  212,
+                      "fovYmm":  160,
+                      "resolution1DMil":  7.8,
+                      "resolution2DMil":  14.3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  550,
+                      "fovXmm":  230,
+                      "fovYmm":  175,
+                      "resolution1DMil":  8.5,
+                      "resolution2DMil":  15.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "12mm",
+                      "distanceMm":  600,
+                      "fovXmm":  254,
+                      "fovYmm":  190,
+                      "resolution1DMil":  9.4,
+                      "resolution2DMil":  17.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  31,
+                      "fovYmm":  23,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  38,
+                      "fovYmm":  28,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  43,
+                      "fovYmm":  32,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  50,
+                      "fovYmm":  38,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  57,
+                      "fovYmm":  43,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  63,
+                      "fovYmm":  47,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  72,
+                      "fovYmm":  54,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  80,
+                      "fovYmm":  60,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  92,
+                      "fovYmm":  68,
+                      "resolution1DMil":  3.4,
+                      "resolution2DMil":  6.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  107,
+                      "fovYmm":  80,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  124,
+                      "fovYmm":  94,
+                      "resolution1DMil":  4.6,
+                      "resolution2DMil":  8.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  141,
+                      "fovYmm":  105,
+                      "resolution1DMil":  5.2,
+                      "resolution2DMil":  9.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  155,
+                      "fovYmm":  114,
+                      "resolution1DMil":  5.7,
+                      "resolution2DMil":  10.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  190,
+                      "fovYmm":  141,
+                      "resolution1DMil":  7,
+                      "resolution2DMil":  12.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  216,
+                      "fovYmm":  164,
+                      "resolution1DMil":  8,
+                      "resolution2DMil":  14.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  316,
+                      "fovYmm":  245,
+                      "resolution1DMil":  11.7,
+                      "resolution2DMil":  21.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  470,
+                      "fovYmm":  353,
+                      "resolution1DMil":  17.3,
+                      "resolution2DMil":  31.8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  200,
+                      "fovXmm":  35,
+                      "fovYmm":  26,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  230,
+                      "fovXmm":  45,
+                      "fovYmm":  33,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  260,
+                      "fovXmm":  51,
+                      "fovYmm":  38,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  3.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  290,
+                      "fovXmm":  54,
+                      "fovYmm":  42,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  3.7
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  320,
+                      "fovXmm":  64,
+                      "fovYmm":  46,
+                      "resolution1DMil":  2.4,
+                      "resolution2DMil":  4.3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  350,
+                      "fovXmm":  66,
+                      "fovYmm":  48,
+                      "resolution1DMil":  2.4,
+                      "resolution2DMil":  4.5
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  400,
+                      "fovXmm":  77,
+                      "fovYmm":  57,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  5.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  450,
+                      "fovXmm":  87,
+                      "fovYmm":  67,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  5.9
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  500,
+                      "fovXmm":  98,
+                      "fovYmm":  72,
+                      "resolution1DMil":  3.6,
+                      "resolution2DMil":  6.6
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  550,
+                      "fovXmm":  106,
+                      "fovYmm":  81,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  600,
+                      "fovXmm":  118,
+                      "fovYmm":  87,
+                      "resolution1DMil":  4.4,
+                      "resolution2DMil":  8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  650,
+                      "fovXmm":  128,
+                      "fovYmm":  95,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  8.7
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  700,
+                      "fovXmm":  138,
+                      "fovYmm":  108,
+                      "resolution1DMil":  5.1,
+                      "resolution2DMil":  9.3
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  750,
+                      "fovXmm":  148,
+                      "fovYmm":  112,
+                      "resolution1DMil":  5.5,
+                      "resolution2DMil":  10
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  800,
+                      "fovXmm":  158,
+                      "fovYmm":  118,
+                      "resolution1DMil":  5.8,
+                      "resolution2DMil":  10.7
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  204,
+                      "fovYmm":  150,
+                      "resolution1DMil":  7.5,
+                      "resolution2DMil":  13.8
+                  },
+                  {
+                      "series":  "RS210",
+                      "lens":  "25mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  300,
+                      "fovYmm":  225,
+                      "resolution1DMil":  11.1,
+                      "resolution2DMil":  20.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  50,
+                      "fovXmm":  54,
+                      "fovYmm":  31,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  70,
+                      "fovXmm":  74,
+                      "fovYmm":  38,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3.1
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  90,
+                      "fovXmm":  95,
+                      "fovYmm":  53,
+                      "resolution1DMil":  2.2,
+                      "resolution2DMil":  4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  120,
+                      "fovXmm":  124,
+                      "fovYmm":  72,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  5.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  150,
+                      "fovXmm":  155,
+                      "fovYmm":  90,
+                      "resolution1DMil":  3.6,
+                      "resolution2DMil":  6.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  180,
+                      "fovXmm":  175,
+                      "fovYmm":  103,
+                      "resolution1DMil":  4,
+                      "resolution2DMil":  7.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  210,
+                      "fovXmm":  200,
+                      "fovYmm":  123,
+                      "resolution1DMil":  4.6,
+                      "resolution2DMil":  8.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  240,
+                      "fovXmm":  235,
+                      "fovYmm":  140,
+                      "resolution1DMil":  5.4,
+                      "resolution2DMil":  9.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  270,
+                      "fovXmm":  270,
+                      "fovYmm":  155,
+                      "resolution1DMil":  6.2,
+                      "resolution2DMil":  11.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  300,
+                      "fovXmm":  300,
+                      "fovYmm":  175,
+                      "resolution1DMil":  6.9,
+                      "resolution2DMil":  12.7
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  350,
+                      "fovXmm":  350,
+                      "fovYmm":  210,
+                      "resolution1DMil":  8.1,
+                      "resolution2DMil":  14.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  400,
+                      "fovXmm":  400,
+                      "fovYmm":  234,
+                      "resolution1DMil":  9.2,
+                      "resolution2DMil":  16.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  450,
+                      "fovXmm":  450,
+                      "fovYmm":  260,
+                      "resolution1DMil":  10.4,
+                      "resolution2DMil":  19
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  500,
+                      "fovXmm":  500,
+                      "fovYmm":  295,
+                      "resolution1DMil":  11.5,
+                      "resolution2DMil":  21.1
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  600,
+                      "fovXmm":  600,
+                      "fovYmm":  350,
+                      "resolution1DMil":  13.8,
+                      "resolution2DMil":  25.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  700,
+                      "fovXmm":  700,
+                      "fovYmm":  410,
+                      "resolution1DMil":  16.1,
+                      "resolution2DMil":  29.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "8mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  1000,
+                      "fovYmm":  575,
+                      "resolution1DMil":  23.1,
+                      "resolution2DMil":  42.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  70,
+                      "fovXmm":  48,
+                      "fovYmm":  28,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  90,
+                      "fovXmm":  58,
+                      "fovYmm":  38,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  83,
+                      "fovYmm":  52,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  3.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  150,
+                      "fovXmm":  108,
+                      "fovYmm":  66,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  4.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  132,
+                      "fovYmm":  80,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  210,
+                      "fovXmm":  150,
+                      "fovYmm":  95,
+                      "resolution1DMil":  3.5,
+                      "resolution2DMil":  6.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  240,
+                      "fovXmm":  182,
+                      "fovYmm":  111,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.7
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  270,
+                      "fovXmm":  200,
+                      "fovYmm":  122,
+                      "resolution1DMil":  4.6,
+                      "resolution2DMil":  8.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  215,
+                      "fovYmm":  134,
+                      "resolution1DMil":  5,
+                      "resolution2DMil":  9.1
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  254,
+                      "fovYmm":  163,
+                      "resolution1DMil":  5.9,
+                      "resolution2DMil":  10.7
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  315,
+                      "fovYmm":  204,
+                      "resolution1DMil":  7.3,
+                      "resolution2DMil":  13.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  352,
+                      "fovYmm":  228,
+                      "resolution1DMil":  8.1,
+                      "resolution2DMil":  14.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  384,
+                      "fovYmm":  255,
+                      "resolution1DMil":  8.9,
+                      "resolution2DMil":  16.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  600,
+                      "fovXmm":  461,
+                      "fovYmm":  291,
+                      "resolution1DMil":  10.6,
+                      "resolution2DMil":  19.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  700,
+                      "fovXmm":  562,
+                      "fovYmm":  383,
+                      "resolution1DMil":  13,
+                      "resolution2DMil":  23.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  913,
+                      "fovYmm":  560,
+                      "resolution1DMil":  21.1,
+                      "resolution2DMil":  38.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "12mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  1440,
+                      "fovYmm":  730,
+                      "resolution1DMil":  33.2,
+                      "resolution2DMil":  60.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  42,
+                      "fovYmm":  27,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  54,
+                      "fovYmm":  33,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  65,
+                      "fovYmm":  40,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  2.7
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  80,
+                      "fovYmm":  48,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  85,
+                      "fovYmm":  50,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  100,
+                      "fovYmm":  53,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  109,
+                      "fovYmm":  66,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  4.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  114,
+                      "fovYmm":  75,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  4.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  136,
+                      "fovYmm":  87,
+                      "resolution1DMil":  3.1,
+                      "resolution2DMil":  5.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  161,
+                      "fovYmm":  102,
+                      "resolution1DMil":  3.7,
+                      "resolution2DMil":  6.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  185,
+                      "fovYmm":  111,
+                      "resolution1DMil":  4.3,
+                      "resolution2DMil":  7.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  212,
+                      "fovYmm":  131,
+                      "resolution1DMil":  4.9,
+                      "resolution2DMil":  9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  240,
+                      "fovYmm":  148,
+                      "resolution1DMil":  5.5,
+                      "resolution2DMil":  10.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  296,
+                      "fovYmm":  172,
+                      "resolution1DMil":  6.8,
+                      "resolution2DMil":  12.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  360,
+                      "fovYmm":  211,
+                      "resolution1DMil":  8.3,
+                      "resolution2DMil":  15.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  507,
+                      "fovYmm":  293,
+                      "resolution1DMil":  11.7,
+                      "resolution2DMil":  21.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  764,
+                      "fovYmm":  438,
+                      "resolution1DMil":  17.6,
+                      "resolution2DMil":  32.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "16mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  1023,
+                      "fovYmm":  585,
+                      "resolution1DMil":  23.6,
+                      "resolution2DMil":  43.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  100,
+                      "fovXmm":  35,
+                      "fovYmm":  20,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  120,
+                      "fovXmm":  39,
+                      "fovYmm":  23,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  1.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  140,
+                      "fovXmm":  44,
+                      "fovYmm":  27,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  160,
+                      "fovXmm":  51,
+                      "fovYmm":  30,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  180,
+                      "fovXmm":  55,
+                      "fovYmm":  34,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.3
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  200,
+                      "fovXmm":  59,
+                      "fovYmm":  35,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  230,
+                      "fovXmm":  68,
+                      "fovYmm":  40,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  260,
+                      "fovXmm":  80,
+                      "fovYmm":  47,
+                      "resolution1DMil":  1.8,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  300,
+                      "fovXmm":  91,
+                      "fovYmm":  54,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.8
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  350,
+                      "fovXmm":  117,
+                      "fovYmm":  63,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.9
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  400,
+                      "fovXmm":  123,
+                      "fovYmm":  72,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  5.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  450,
+                      "fovXmm":  141,
+                      "fovYmm":  82,
+                      "resolution1DMil":  3.3,
+                      "resolution2DMil":  6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  500,
+                      "fovXmm":  156,
+                      "fovYmm":  93,
+                      "resolution1DMil":  3.6,
+                      "resolution2DMil":  6.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  600,
+                      "fovXmm":  194,
+                      "fovYmm":  111,
+                      "resolution1DMil":  4.5,
+                      "resolution2DMil":  8.2
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  700,
+                      "fovXmm":  222,
+                      "fovYmm":  130,
+                      "resolution1DMil":  5.1,
+                      "resolution2DMil":  9.4
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  370,
+                      "fovYmm":  186,
+                      "resolution1DMil":  8.5,
+                      "resolution2DMil":  15.6
+                  },
+                  {
+                      "series":  "RS220",
+                      "lens":  "25mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  484,
+                      "fovYmm":  281,
+                      "resolution1DMil":  11.2,
+                      "resolution2DMil":  20.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  20,
+                      "fovXmm":  29,
+                      "fovYmm":  24,
+                      "resolution1DMil":  0.6,
+                      "resolution2DMil":  1.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  50,
+                      "fovXmm":  58,
+                      "fovYmm":  48,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  70,
+                      "fovXmm":  77,
+                      "fovYmm":  67,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.8
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  100,
+                      "fovXmm":  110,
+                      "fovYmm":  90,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  120,
+                      "fovXmm":  130,
+                      "fovYmm":  109,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.8
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  140,
+                      "fovXmm":  150,
+                      "fovYmm":  124,
+                      "resolution1DMil":  3.1,
+                      "resolution2DMil":  5.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  160,
+                      "fovXmm":  170,
+                      "fovYmm":  138,
+                      "resolution1DMil":  3.5,
+                      "resolution2DMil":  6.2
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  180,
+                      "fovXmm":  190,
+                      "fovYmm":  155,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  200,
+                      "fovXmm":  210,
+                      "fovYmm":  175,
+                      "resolution1DMil":  4.4,
+                      "resolution2DMil":  7.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  230,
+                      "fovXmm":  240,
+                      "fovYmm":  200,
+                      "resolution1DMil":  5,
+                      "resolution2DMil":  8.8
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  260,
+                      "fovXmm":  270,
+                      "fovYmm":  224,
+                      "resolution1DMil":  5.6,
+                      "resolution2DMil":  9.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  300,
+                      "fovXmm":  314,
+                      "fovYmm":  262,
+                      "resolution1DMil":  6.5,
+                      "resolution2DMil":  11.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  350,
+                      "fovXmm":  358,
+                      "fovYmm":  300,
+                      "resolution1DMil":  7.4,
+                      "resolution2DMil":  13.2
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  400,
+                      "fovXmm":  416,
+                      "fovYmm":  345,
+                      "resolution1DMil":  8.6,
+                      "resolution2DMil":  15.3
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  450,
+                      "fovXmm":  462,
+                      "fovYmm":  385,
+                      "resolution1DMil":  9.6,
+                      "resolution2DMil":  17
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  500,
+                      "fovXmm":  520,
+                      "fovYmm":  436,
+                      "resolution1DMil":  10.8,
+                      "resolution2DMil":  19.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  700,
+                      "fovXmm":  730,
+                      "fovYmm":  615,
+                      "resolution1DMil":  15.2,
+                      "resolution2DMil":  26.8
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "8mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  1065,
+                      "fovYmm":  890,
+                      "resolution1DMil":  22.1,
+                      "resolution2DMil":  39.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  60,
+                      "fovXmm":  40,
+                      "fovYmm":  33,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  100,
+                      "fovXmm":  71,
+                      "fovYmm":  59,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  2.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  84,
+                      "fovYmm":  71,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  140,
+                      "fovXmm":  99,
+                      "fovYmm":  82,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  160,
+                      "fovXmm":  111,
+                      "fovYmm":  92,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  126,
+                      "fovYmm":  104,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  4.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  200,
+                      "fovXmm":  138,
+                      "fovYmm":  115,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  5.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  230,
+                      "fovXmm":  161,
+                      "fovYmm":  134,
+                      "resolution1DMil":  3.3,
+                      "resolution2DMil":  5.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  260,
+                      "fovXmm":  181,
+                      "fovYmm":  152,
+                      "resolution1DMil":  3.8,
+                      "resolution2DMil":  6.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  210,
+                      "fovYmm":  175,
+                      "resolution1DMil":  4.4,
+                      "resolution2DMil":  7.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  244,
+                      "fovYmm":  204,
+                      "resolution1DMil":  5.1,
+                      "resolution2DMil":  9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  276,
+                      "fovYmm":  241,
+                      "resolution1DMil":  5.7,
+                      "resolution2DMil":  10.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  314,
+                      "fovYmm":  263,
+                      "resolution1DMil":  6.5,
+                      "resolution2DMil":  11.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  350,
+                      "fovYmm":  291,
+                      "resolution1DMil":  7.3,
+                      "resolution2DMil":  12.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  700,
+                      "fovXmm":  480,
+                      "fovYmm":  395,
+                      "resolution1DMil":  10,
+                      "resolution2DMil":  17.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  698,
+                      "fovYmm":  590,
+                      "resolution1DMil":  14.5,
+                      "resolution2DMil":  25.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "12mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  1050,
+                      "fovYmm":  875,
+                      "resolution1DMil":  21.8,
+                      "resolution2DMil":  38.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  80,
+                      "fovXmm":  40,
+                      "fovYmm":  32,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  48,
+                      "fovYmm":  39,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  57,
+                      "fovYmm":  48,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  69,
+                      "fovYmm":  58,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  79,
+                      "fovYmm":  65,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  90,
+                      "fovYmm":  74,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  3.3
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  101,
+                      "fovYmm":  83,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  118,
+                      "fovYmm":  97,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  4.3
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  132,
+                      "fovYmm":  109,
+                      "resolution1DMil":  2.7,
+                      "resolution2DMil":  4.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  156,
+                      "fovYmm":  129,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  5.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  183,
+                      "fovYmm":  150,
+                      "resolution1DMil":  3.8,
+                      "resolution2DMil":  6.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  207,
+                      "fovYmm":  171,
+                      "resolution1DMil":  4.3,
+                      "resolution2DMil":  7.6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  236,
+                      "fovYmm":  195,
+                      "resolution1DMil":  4.9,
+                      "resolution2DMil":  8.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  255,
+                      "fovYmm":  214,
+                      "resolution1DMil":  5.3,
+                      "resolution2DMil":  9.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  310,
+                      "fovYmm":  257,
+                      "resolution1DMil":  6.4,
+                      "resolution2DMil":  11.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  364,
+                      "fovYmm":  302,
+                      "resolution1DMil":  7.6,
+                      "resolution2DMil":  13.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  528,
+                      "fovYmm":  438,
+                      "resolution1DMil":  11,
+                      "resolution2DMil":  19.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  800,
+                      "fovYmm":  663,
+                      "resolution1DMil":  16.6,
+                      "resolution2DMil":  29.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "16mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  1065,
+                      "fovYmm":  900,
+                      "resolution1DMil":  22.1,
+                      "resolution2DMil":  39.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  200,
+                      "fovXmm":  60,
+                      "fovYmm":  50,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.2
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  230,
+                      "fovXmm":  69,
+                      "fovYmm":  58,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  260,
+                      "fovXmm":  78,
+                      "fovYmm":  66,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  300,
+                      "fovXmm":  93,
+                      "fovYmm":  78,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  350,
+                      "fovXmm":  110,
+                      "fovYmm":  92,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  400,
+                      "fovXmm":  127,
+                      "fovYmm":  107,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  4.7
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  450,
+                      "fovXmm":  143,
+                      "fovYmm":  119,
+                      "resolution1DMil":  3,
+                      "resolution2DMil":  5.3
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  500,
+                      "fovXmm":  162,
+                      "fovYmm":  135,
+                      "resolution1DMil":  3.4,
+                      "resolution2DMil":  6
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  600,
+                      "fovXmm":  194,
+                      "fovYmm":  163,
+                      "resolution1DMil":  4,
+                      "resolution2DMil":  7.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  700,
+                      "fovXmm":  228,
+                      "fovYmm":  190,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  8.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  330,
+                      "fovYmm":  276,
+                      "resolution1DMil":  6.9,
+                      "resolution2DMil":  12.1
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  500,
+                      "fovYmm":  417,
+                      "resolution1DMil":  10.4,
+                      "resolution2DMil":  18.4
+                  },
+                  {
+                      "series":  "RS250",
+                      "lens":  "25mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  662,
+                      "fovYmm":  558,
+                      "resolution1DMil":  13.8,
+                      "resolution2DMil":  24.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  70,
+                      "fovXmm":  65,
+                      "fovYmm":  48,
+                      "resolution1DMil":  0.7,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  100,
+                      "fovXmm":  92,
+                      "fovYmm":  69,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  2.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  120,
+                      "fovXmm":  103,
+                      "fovYmm":  80,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  140,
+                      "fovXmm":  123,
+                      "fovYmm":  95,
+                      "resolution1DMil":  1.3,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  160,
+                      "fovXmm":  141,
+                      "fovYmm":  105,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  3.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  180,
+                      "fovXmm":  160,
+                      "fovYmm":  120,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  200,
+                      "fovXmm":  184,
+                      "fovYmm":  135,
+                      "resolution1DMil":  2,
+                      "resolution2DMil":  4.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  230,
+                      "fovXmm":  195,
+                      "fovYmm":  155,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  4.6
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  260,
+                      "fovXmm":  232,
+                      "fovYmm":  175,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  5.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  300,
+                      "fovXmm":  265,
+                      "fovYmm":  198,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  6.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  350,
+                      "fovXmm":  300,
+                      "fovYmm":  230,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  400,
+                      "fovXmm":  360,
+                      "fovYmm":  267,
+                      "resolution1DMil":  3.9,
+                      "resolution2DMil":  8.6
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  450,
+                      "fovXmm":  385,
+                      "fovYmm":  290,
+                      "resolution1DMil":  4.1,
+                      "resolution2DMil":  9.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  500,
+                      "fovXmm":  440,
+                      "fovYmm":  330,
+                      "resolution1DMil":  4.7,
+                      "resolution2DMil":  10.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  700,
+                      "fovXmm":  630,
+                      "fovYmm":  460,
+                      "resolution1DMil":  6.8,
+                      "resolution2DMil":  15
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  870,
+                      "fovYmm":  650,
+                      "resolution1DMil":  9.4,
+                      "resolution2DMil":  20.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  1310,
+                      "fovYmm":  980,
+                      "resolution1DMil":  14.1,
+                      "resolution2DMil":  31.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "8mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  1765,
+                      "fovYmm":  1320,
+                      "resolution1DMil":  19,
+                      "resolution2DMil":  42.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  70,
+                      "fovXmm":  46,
+                      "fovYmm":  35,
+                      "resolution1DMil":  0.5,
+                      "resolution2DMil":  1.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  100,
+                      "fovXmm":  61,
+                      "fovYmm":  45,
+                      "resolution1DMil":  0.7,
+                      "resolution2DMil":  1.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  120,
+                      "fovXmm":  75,
+                      "fovYmm":  56,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  140,
+                      "fovXmm":  87,
+                      "fovYmm":  65,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  160,
+                      "fovXmm":  100,
+                      "fovYmm":  75,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  180,
+                      "fovXmm":  105,
+                      "fovYmm":  80,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  200,
+                      "fovXmm":  116,
+                      "fovYmm":  89,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  230,
+                      "fovXmm":  135,
+                      "fovYmm":  103,
+                      "resolution1DMil":  1.5,
+                      "resolution2DMil":  3.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  260,
+                      "fovXmm":  160,
+                      "fovYmm":  120,
+                      "resolution1DMil":  1.7,
+                      "resolution2DMil":  3.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  300,
+                      "fovXmm":  173,
+                      "fovYmm":  135,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  350,
+                      "fovXmm":  210,
+                      "fovYmm":  160,
+                      "resolution1DMil":  2.3,
+                      "resolution2DMil":  5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  400,
+                      "fovXmm":  240,
+                      "fovYmm":  175,
+                      "resolution1DMil":  2.6,
+                      "resolution2DMil":  5.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  450,
+                      "fovXmm":  265,
+                      "fovYmm":  200,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  6.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  500,
+                      "fovXmm":  295,
+                      "fovYmm":  222,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  700,
+                      "fovXmm":  420,
+                      "fovYmm":  320,
+                      "resolution1DMil":  4.5,
+                      "resolution2DMil":  10
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  595,
+                      "fovYmm":  440,
+                      "resolution1DMil":  6.4,
+                      "resolution2DMil":  14.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  895,
+                      "fovYmm":  665,
+                      "resolution1DMil":  9.6,
+                      "resolution2DMil":  21.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "12mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  1220,
+                      "fovYmm":  910,
+                      "resolution1DMil":  13.1,
+                      "resolution2DMil":  29.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  100,
+                      "fovXmm":  45,
+                      "fovYmm":  33,
+                      "resolution1DMil":  0.5,
+                      "resolution2DMil":  1.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  120,
+                      "fovXmm":  54,
+                      "fovYmm":  40,
+                      "resolution1DMil":  0.6,
+                      "resolution2DMil":  1.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  140,
+                      "fovXmm":  60,
+                      "fovYmm":  45,
+                      "resolution1DMil":  0.6,
+                      "resolution2DMil":  1.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  160,
+                      "fovXmm":  70,
+                      "fovYmm":  52,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  180,
+                      "fovXmm":  77,
+                      "fovYmm":  58,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  200,
+                      "fovXmm":  88,
+                      "fovYmm":  65,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  230,
+                      "fovXmm":  100,
+                      "fovYmm":  76,
+                      "resolution1DMil":  1.1,
+                      "resolution2DMil":  2.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  260,
+                      "fovXmm":  114,
+                      "fovYmm":  85,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  300,
+                      "fovXmm":  130,
+                      "fovYmm":  100,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  3.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  350,
+                      "fovXmm":  151,
+                      "fovYmm":  113,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  400,
+                      "fovXmm":  174,
+                      "fovYmm":  130,
+                      "resolution1DMil":  1.9,
+                      "resolution2DMil":  4.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  450,
+                      "fovXmm":  198,
+                      "fovYmm":  145,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  4.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  500,
+                      "fovXmm":  220,
+                      "fovYmm":  160,
+                      "resolution1DMil":  2.4,
+                      "resolution2DMil":  5.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  600,
+                      "fovXmm":  260,
+                      "fovYmm":  205,
+                      "resolution1DMil":  2.8,
+                      "resolution2DMil":  6.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  700,
+                      "fovXmm":  300,
+                      "fovYmm":  225,
+                      "resolution1DMil":  3.2,
+                      "resolution2DMil":  7.2
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  442,
+                      "fovYmm":  330,
+                      "resolution1DMil":  4.8,
+                      "resolution2DMil":  10.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  660,
+                      "fovYmm":  493,
+                      "resolution1DMil":  7.1,
+                      "resolution2DMil":  15.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "16mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  870,
+                      "fovYmm":  670,
+                      "resolution1DMil":  9.4,
+                      "resolution2DMil":  20.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  200,
+                      "fovXmm":  50,
+                      "fovYmm":  38,
+                      "resolution1DMil":  0.8,
+                      "resolution2DMil":  1.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  230,
+                      "fovXmm":  58,
+                      "fovYmm":  41,
+                      "resolution1DMil":  0.9,
+                      "resolution2DMil":  1.6
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  260,
+                      "fovXmm":  66,
+                      "fovYmm":  50,
+                      "resolution1DMil":  1,
+                      "resolution2DMil":  1.8
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  300,
+                      "fovXmm":  79,
+                      "fovYmm":  59,
+                      "resolution1DMil":  1.2,
+                      "resolution2DMil":  2.1
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  350,
+                      "fovXmm":  93,
+                      "fovYmm":  69,
+                      "resolution1DMil":  1.4,
+                      "resolution2DMil":  2.5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  500,
+                      "fovXmm":  107,
+                      "fovYmm":  81,
+                      "resolution1DMil":  1.6,
+                      "resolution2DMil":  2.9
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  450,
+                      "fovXmm":  134,
+                      "fovYmm":  100,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.6
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  500,
+                      "fovXmm":  136,
+                      "fovYmm":  102,
+                      "resolution1DMil":  2.1,
+                      "resolution2DMil":  3.7
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  600,
+                      "fovXmm":  163,
+                      "fovYmm":  120,
+                      "resolution1DMil":  2.5,
+                      "resolution2DMil":  4.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  700,
+                      "fovXmm":  187,
+                      "fovYmm":  145,
+                      "resolution1DMil":  2.9,
+                      "resolution2DMil":  5
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  1000,
+                      "fovXmm":  273,
+                      "fovYmm":  210,
+                      "resolution1DMil":  4.2,
+                      "resolution2DMil":  7.3
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  1500,
+                      "fovXmm":  422,
+                      "fovYmm":  315,
+                      "resolution1DMil":  6.5,
+                      "resolution2DMil":  11.4
+                  },
+                  {
+                      "series":  "RS290",
+                      "lens":  "25mm",
+                      "distanceMm":  2000,
+                      "fovXmm":  560,
+                      "fovYmm":  450,
+                      "resolution1DMil":  8.6,
+                      "resolution2DMil":  15.1
+                  }
+              ]
+}
